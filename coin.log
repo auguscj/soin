@@ -1,0 +1,661 @@
+2025-01-25 21:37:12,619 - root - ERROR - Begin to get {'message': 'Successfully subscribed to token creation events.'}
+2025-01-25 21:37:12,620 - root - ERROR - 
+
+2025-01-25 21:37:15,592 - root - ERROR - Begin to get {'signature': '66mNG6VutBVPqVk96ZibsycMTF1JHmErRAfv6DAM4uAsmsJkaanzJoRLd8qbe2HSboJAiUKNfHgUuoFYZJ1CqABC', 'mint': '5mbMzpnihMVi6duy2UciJdb1UiEqTr2bdLu1YdEREryz', 'traderPublicKey': 'DGeHM4s3M3rbFP5GJvdzFzaMTsUM7MFms87V1yvYZY3', 'txType': 'create', 'initialBuy': 45437100, 'solAmount': 1.32654945, 'bondingCurveKey': 'J7yUGowCzZXTgcJePBBLCiw8NmKv8chrg87b4ywwoo7j', 'vTokensInBondingCurve': 1027562900, 'vSolInBondingCurve': 31.32654945016018, 'marketCapSol': 30.48625972206682, 'name': 'NEXIUS AI', 'symbol': 'NEXIUS', 'uri': 'https://ipfs.io/ipfs/Qmf5FQjjBF87YdTy6aZWCs4ym6pRECrgXuMGkw6fQTBStY', 'pool': 'pump'}
+2025-01-25 21:37:15,595 - root - ERROR - Begin to extract_coin_detail_from_message 5mbMzpnihMVi6duy2UciJdb1UiEqTr2bdLu1YdEREryz
+2025-01-25 21:37:25,983 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/5mbMzpnihMVi6duy2UciJdb1UiEqTr2bdLu1YdEREryz:
+2025-01-25 21:37:36,987 - root - ERROR - Error fetching https://ipfs.io/ipfs/Qmf5FQjjBF87YdTy6aZWCs4ym6pRECrgXuMGkw6fQTBStY:
+2025-01-25 21:37:36,987 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:37:36,988 - root - ERROR - 
+
+2025-01-25 21:37:36,988 - root - ERROR - Begin to get {'signature': '5mLFw52A2BFVnwDsRWQ8YdMXX79KhbR7HqhNVF2Gu93asDkX8TeWn5Z5mPWF8DazXjQuyC5BmWNLMDrVGgBmyeNM', 'mint': '8SKCkTdM9zXBBubvK6Zc1bFJtdZdXKGHJTi9CbSmpump', 'traderPublicKey': 'CCuwBSRT7D2wnVfXsBpMCRUsJ3ezG4dLGLeuKVpaPvEE', 'txType': 'create', 'initialBuy': 79346540.888268, 'solAmount': 2.3956, 'bondingCurveKey': 'FfQG7AUKRvmS4dWoepAgbnMB1vHHsksKGq8HxtMbAK8S', 'vTokensInBondingCurve': 993653459.111732, 'vSolInBondingCurve': 32.39559999999997, 'marketCapSol': 32.602513182976026, 'name': 'eawrb ', 'symbol': 'awaw', 'uri': 'https://ipfs.io/ipfs/QmVwHETQiuU7dqf4xMNceCPFrpWZ1ZiaPsJJ6bw2jbcJF1', 'pool': 'pump'}
+2025-01-25 21:37:36,988 - root - ERROR - Begin to extract_coin_detail_from_message 8SKCkTdM9zXBBubvK6Zc1bFJtdZdXKGHJTi9CbSmpump
+2025-01-25 21:37:47,966 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/8SKCkTdM9zXBBubvK6Zc1bFJtdZdXKGHJTi9CbSmpump:
+2025-01-25 21:37:57,970 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmVwHETQiuU7dqf4xMNceCPFrpWZ1ZiaPsJJ6bw2jbcJF1:
+2025-01-25 21:37:57,970 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:37:57,971 - root - ERROR - 
+
+2025-01-25 21:37:57,971 - root - ERROR - Begin to get {'signature': '5bDrA2ANkCGhjr13j9ERmBQGpV6YaWgvT7drjYaGd5uL55hsRczvu1YRxzfWdtA4vytytVAK6Sx5axc67zP6sVqS', 'mint': 'CbS5ixGM21Q1BbycbBLJDkvSPFQkW5a6VscYd7fMpump', 'traderPublicKey': 'qYSUnWquBJsb6CgPUWRVRLQoGy5uEmXKCW3V5jG3vKg', 'txType': 'create', 'initialBuy': 42918.283268, 'solAmount': 0.0012, 'bondingCurveKey': 'E3jrrpZoCddezTvYpn2pYk84AKy59jkvjsrbv34KSNfQ', 'vTokensInBondingCurve': 1072957081.716732, 'vSolInBondingCurve': 30.00119999999998, 'marketCapSol': 27.961230240447307, 'name': 'Cute Winter Boots', 'symbol': 'CWB', 'uri': 'https://ipfs.io/ipfs/QmUj5bmndraTpR2AAFUBK9fFvEkyy63RuptyV533D6eCyF', 'pool': 'pump'}
+2025-01-25 21:37:57,971 - root - ERROR - Begin to extract_coin_detail_from_message CbS5ixGM21Q1BbycbBLJDkvSPFQkW5a6VscYd7fMpump
+2025-01-25 21:38:07,975 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/CbS5ixGM21Q1BbycbBLJDkvSPFQkW5a6VscYd7fMpump:
+2025-01-25 21:38:18,978 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmUj5bmndraTpR2AAFUBK9fFvEkyy63RuptyV533D6eCyF:
+2025-01-25 21:38:18,978 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:38:18,979 - root - ERROR - 
+
+2025-01-25 21:38:18,979 - root - ERROR - Begin to get {'signature': '5QXWic4CyRnVxHdYyN98B1WTQxVCZkGnKP7RGqoT2Z6VF1hnpSc8QhrNnxqGSdBo45iULYWNSfiJJcKDtkpBskgT', 'mint': 'BxhRtGr8ExxRbw22riSfYJfivWcAe264eP3woCZrpump', 'traderPublicKey': '5xHWB7NkT9MNtftD6Dz9jZGuUmdwh1wEVwePJEPcwNdU', 'txType': 'create', 'initialBuy': 67062499.999999, 'solAmount': 2, 'bondingCurveKey': 'FTeFj9pCQNLoTfTiNQVLLbchpYrNVgbrZfrouzRAiuNz', 'vTokensInBondingCurve': 1005937500.000001, 'vSolInBondingCurve': 31.999999999999968, 'marketCapSol': 31.811121466293816, 'name': 'CULT OF FARTS', 'symbol': 'FARTISM', 'uri': 'https://ipfs.io/ipfs/QmVWyMdw822TyCTxxjwRhNLmB7nF5S4jzF7B6pd7kaUxUt', 'pool': 'pump'}
+2025-01-25 21:38:18,979 - root - ERROR - Begin to extract_coin_detail_from_message BxhRtGr8ExxRbw22riSfYJfivWcAe264eP3woCZrpump
+2025-01-25 21:38:29,972 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/BxhRtGr8ExxRbw22riSfYJfivWcAe264eP3woCZrpump:
+2025-01-25 21:38:39,988 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmVWyMdw822TyCTxxjwRhNLmB7nF5S4jzF7B6pd7kaUxUt:
+2025-01-25 21:38:39,988 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:38:39,988 - root - ERROR - 
+
+2025-01-25 21:38:39,989 - root - ERROR - Begin to get {'signature': '2fKc29jaqLsPke2sJab4epVMNWu4QN4T1Z1sGAmd9utBvJJ791Q7PgVPtDw275QUgSxKH4hfTBwvQ3ujJ3qAphC3', 'mint': '2raD5TeH9A1Tz37EHHx33RBNyEsbXsRtuwFGiRh9pump', 'traderPublicKey': '9woPpMza68mjNmRfgqna5H7MEfUPrK5Q4DU5mM9XybT8', 'txType': 'create', 'initialBuy': 14118421.052631, 'solAmount': 0.4, 'bondingCurveKey': 'FkZWcNgFgKvBUD1GxE7LecxRSJjTRcrR6cf6NZsQHZSv', 'vTokensInBondingCurve': 1058881578.947369, 'vSolInBondingCurve': 30.399999999999984, 'marketCapSol': 28.709537123330197, 'name': '100% UNOFFICIAL HANK COIN', 'symbol': 'HANK', 'uri': 'https://ipfs.io/ipfs/QmfYeSiNz8ibC7PYdkQWQ6YBNwr8SPnEHSsAgTjLxUkZyG', 'pool': 'pump'}
+2025-01-25 21:38:39,989 - root - ERROR - Begin to extract_coin_detail_from_message 2raD5TeH9A1Tz37EHHx33RBNyEsbXsRtuwFGiRh9pump
+2025-01-25 21:38:50,971 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/2raD5TeH9A1Tz37EHHx33RBNyEsbXsRtuwFGiRh9pump:
+2025-01-25 21:39:00,983 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmfYeSiNz8ibC7PYdkQWQ6YBNwr8SPnEHSsAgTjLxUkZyG:
+2025-01-25 21:39:00,983 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:39:00,983 - root - ERROR - 
+
+2025-01-25 21:39:00,984 - root - ERROR - Begin to get {'signature': 'z2evRaftFG55L9p3BCzup6FDoNq7TbHiErzE7qpXG74Jtrn7NhZZJ65RCuQ3XKb8Xab2E5UCajRTaaH7cyoq1ue', 'mint': 'Ed9gQ46mi5cuPDk7gLYQCF93NvLZxQ2fX9UdRUNGpump', 'traderPublicKey': '779Y5wRvZNS3BTfRHHZeqNLDmvURnvYgNy1KpajbiNah', 'txType': 'create', 'initialBuy': 67062499.999999, 'solAmount': 2, 'bondingCurveKey': 'HNXaNJoeUG6P4J6wJgKBwtM4aRU3SJ4cfYe5bhih6wQk', 'vTokensInBondingCurve': 1005937500.000001, 'vSolInBondingCurve': 31.999999999999968, 'marketCapSol': 31.811121466293816, 'name': 'LIVEWITHMOM', 'symbol': 'MOMLIVE', 'uri': 'https://ipfs.io/ipfs/Qmb8EDGaHdC3xyMeVLxGaTZoxqatQKqTWhfYiamMH1bLHY', 'pool': 'pump'}
+2025-01-25 21:39:00,984 - root - ERROR - Begin to extract_coin_detail_from_message Ed9gQ46mi5cuPDk7gLYQCF93NvLZxQ2fX9UdRUNGpump
+2025-01-25 21:39:11,970 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/Ed9gQ46mi5cuPDk7gLYQCF93NvLZxQ2fX9UdRUNGpump:
+2025-01-25 21:39:21,980 - root - ERROR - Error fetching https://ipfs.io/ipfs/Qmb8EDGaHdC3xyMeVLxGaTZoxqatQKqTWhfYiamMH1bLHY:
+2025-01-25 21:39:21,980 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:39:21,980 - root - ERROR - 
+
+2025-01-25 21:39:21,981 - root - ERROR - Begin to get {'signature': '2c7atGdv8iNBKPE7T1zZF4sdsogj2SFNTrMH9qNePWcvA5Sxp8AFwp5omR7ngGHtm59bHdwMRK5UToENEQY18mU3', 'mint': 'HEv8pe12KqKrtUc8yC1biNKLBcE2jvZtmUYb9unypump', 'traderPublicKey': '9NjSAbAxiiWhQHagxSS8hZ3DAtP9XqukzNRLhtuHRd6A', 'txType': 'create', 'initialBuy': 7105960.2649, 'solAmount': 0.2, 'bondingCurveKey': '3QuEWnWBKALaCM4GANeNp2QEX1z7n119q5cmRwruXTYk', 'vTokensInBondingCurve': 1065894039.7351, 'vSolInBondingCurve': 30.19999999999998, 'marketCapSol': 28.33302267785023, 'name': 'Official Target Coin', 'symbol': 'Jiriij$4&4', 'uri': 'https://ipfs.io/ipfs/QmS8VikjxuFmLRtTXe5gGzB5teDdipvTJUzMh6xm6Nau4q', 'pool': 'pump'}
+2025-01-25 21:39:21,981 - root - ERROR - Begin to extract_coin_detail_from_message HEv8pe12KqKrtUc8yC1biNKLBcE2jvZtmUYb9unypump
+2025-01-25 21:39:32,969 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/HEv8pe12KqKrtUc8yC1biNKLBcE2jvZtmUYb9unypump:
+2025-01-25 21:39:42,983 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmS8VikjxuFmLRtTXe5gGzB5teDdipvTJUzMh6xm6Nau4q:
+2025-01-25 21:39:42,983 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:39:42,983 - root - ERROR - 
+
+2025-01-25 21:39:42,984 - root - ERROR - Begin to get {'signature': '3Wifm5P9eH3KNRABqTWtQjg758nwycWmAi1uL2w3FL76rQGFLjzu31xaE44W72q9Yk2CaHghwRmSQwhhg1NHv1cw', 'mint': 'G7kedbn3MJJWWrXTL3VoyoY65StyX76bHu9X1rcEpump', 'traderPublicKey': '4VrN6Z4y4ZagooLYXvwfKEjuMP4Ci5ntp6BHC7pWyw7Q', 'txType': 'create', 'initialBuy': 60735849.056603, 'solAmount': 1.8, 'bondingCurveKey': '5TAkaiQVXAgjhPSFQax1wQzYtrRaKLULnfKBTE27tocr', 'vTokensInBondingCurve': 1012264150.943397, 'vSolInBondingCurve': 31.799999999999976, 'marketCapSol': 31.414725069897433, 'name': 'neo', 'symbol': 'neo', 'uri': 'https://ipfs.io/ipfs/QmfXMYGJiaK8ApDzWjDZJJUG1vhioB2ghzFc5K1Fa6uWhB', 'pool': 'pump'}
+2025-01-25 21:39:42,984 - root - ERROR - Begin to extract_coin_detail_from_message G7kedbn3MJJWWrXTL3VoyoY65StyX76bHu9X1rcEpump
+2025-01-25 21:39:53,970 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/G7kedbn3MJJWWrXTL3VoyoY65StyX76bHu9X1rcEpump:
+2025-01-25 21:40:03,979 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmfXMYGJiaK8ApDzWjDZJJUG1vhioB2ghzFc5K1Fa6uWhB:
+2025-01-25 21:40:03,979 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:40:03,980 - root - ERROR - 
+
+2025-01-25 21:40:03,980 - root - ERROR - Begin to get {'signature': 'NPdpfqU6jKXyDJaYduZ1HKgL1FHqywBYJ6B5iTf3zsJZVJJNn5fBZMv1rZ6Wy6QyV3MEESywfcZJmM2eKE8r7c4', 'mint': '8iFpZcVLRW5zDPKQzMSYGCFtwrzmem2q8F6ZyFn4pump', 'traderPublicKey': '8KnyHZFL34hGZc6DqGAmC8vgk8BSF91wP6FJoBzqbcyc', 'txType': 'create', 'initialBuy': 357547.484171, 'solAmount': 0.01, 'bondingCurveKey': 'GaGRQAVkgmk6h9WS15Snu8FLrZvqwtUEC2U2UQWK8eSJ', 'vTokensInBondingCurve': 1072642452.515829, 'vSolInBondingCurve': 30.009999999999973, 'marketCapSol': 27.977635911773792, 'name': 'ArcadeToken', 'symbol': 'ARCADE', 'uri': 'https://ipfs.io/ipfs/QmciSvP1mjnU58W8gwtUUm7XfKK6uQnCzyqCHwrFXS2p6t', 'pool': 'pump'}
+2025-01-25 21:40:03,980 - root - ERROR - Begin to extract_coin_detail_from_message 8iFpZcVLRW5zDPKQzMSYGCFtwrzmem2q8F6ZyFn4pump
+2025-01-25 21:40:14,975 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/8iFpZcVLRW5zDPKQzMSYGCFtwrzmem2q8F6ZyFn4pump:
+2025-01-25 21:40:25,963 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmciSvP1mjnU58W8gwtUUm7XfKK6uQnCzyqCHwrFXS2p6t:
+2025-01-25 21:40:25,963 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:40:25,964 - root - ERROR - 
+
+2025-01-25 21:40:25,964 - root - ERROR - Begin to get {'signature': '5vXGnQt2ujhWDLohcqn9RL9xWPPNq6qFQMzCk4guDTy8YikTZYqyAehPnwasWzhS2DpWbCKR4esw63mYw7JTUDiU', 'mint': 'Hd1SknoypBiwJUN4K8Yqqt6eSrtCZCeVkALQznqipump', 'traderPublicKey': 'FG5d74AB3PyC4XByMYMMW79qmAu8cvUUPYpKS9E6Bxts', 'txType': 'create', 'initialBuy': 41269230.76923, 'solAmount': 1.2, 'bondingCurveKey': '7hGuCsR4dr5T7knjjEDY4NJQYkXDeKKXByDAQVfL76co', 'vTokensInBondingCurve': 1031730769.23077, 'vSolInBondingCurve': 31.199999999999978, 'marketCapSol': 30.240447343895575, 'name': 'Wolf of pump street ', 'symbol': 'WOPS', 'uri': 'https://ipfs.io/ipfs/Qmcm6YrmcJu1fL5apEww7pxKY8fMqfX4RviKNnGeVZZiUR', 'pool': 'pump'}
+2025-01-25 21:40:25,964 - root - ERROR - Begin to extract_coin_detail_from_message Hd1SknoypBiwJUN4K8Yqqt6eSrtCZCeVkALQznqipump
+2025-01-25 21:40:35,975 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/Hd1SknoypBiwJUN4K8Yqqt6eSrtCZCeVkALQznqipump:
+2025-01-25 21:40:46,979 - root - ERROR - Error fetching https://ipfs.io/ipfs/Qmcm6YrmcJu1fL5apEww7pxKY8fMqfX4RviKNnGeVZZiUR:
+2025-01-25 21:40:46,979 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:40:46,980 - root - ERROR - 
+
+2025-01-25 21:40:46,980 - root - ERROR - Begin to get {'signature': '4mrEVLttdxe4qVWRmMoyZf4gAQtV23kGWQTovEUEqCjRoM9HRkh2PspnBRnGomTsCqGhd6LZYN9vYdegScPKReTC', 'mint': '8h6dwKkoNAUbD7SbRTtZq4QzJqwpGLYGonDymBw3pump', 'traderPublicKey': '7amxVWDFwc31xivdTLDiCkMPB2dRWZUuYJ5Nf7tLyx7Y', 'txType': 'create', 'initialBuy': 14118421.052631, 'solAmount': 0.4, 'bondingCurveKey': 'EFcNNVPa2T3wZNY5Di3onDLzgvF8t8ppfDErVmw7MBux', 'vTokensInBondingCurve': 1058881578.947369, 'vSolInBondingCurve': 30.399999999999984, 'marketCapSol': 28.709537123330197, 'name': 'Pepe on tmax', 'symbol': 'PMAX', 'uri': 'https://ipfs.io/ipfs/QmVhdLMwXYE86dpL2CtZ1c4qAJm6nZBymRkwR6sKPURhoF', 'pool': 'pump'}
+2025-01-25 21:40:46,980 - root - ERROR - Begin to extract_coin_detail_from_message 8h6dwKkoNAUbD7SbRTtZq4QzJqwpGLYGonDymBw3pump
+2025-01-25 21:40:57,979 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/8h6dwKkoNAUbD7SbRTtZq4QzJqwpGLYGonDymBw3pump:
+2025-01-25 21:41:08,971 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmVhdLMwXYE86dpL2CtZ1c4qAJm6nZBymRkwR6sKPURhoF:
+2025-01-25 21:41:08,971 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:41:08,972 - root - ERROR - 
+
+2025-01-25 21:41:08,972 - root - ERROR - Begin to get {'signature': '3zt3rh4o565dFLYSKT2oKk9dkYDigomNbf5wQLxE2KvkbVrmyWVwVPfW5xKR74zNPBw8CMU3AuHcN7ixW19V5Vvv', 'mint': 'BTvuFPJHk4nXDv7MAUrWud3tJsvC8KcRcEmbMvnJpump', 'traderPublicKey': 'DCHVP61HEk4pUUtRA22xXxgif78g5Nxd6Utf6VLUcGA3', 'txType': 'create', 'initialBuy': 34612903.225806, 'solAmount': 1, 'bondingCurveKey': 'EV77A1Hbv4xzLsk1fmcuLBRvfgYbSza6Ri6emnAUfbQT', 'vTokensInBondingCurve': 1038387096.774194, 'vSolInBondingCurve': 30.999999999999986, 'marketCapSol': 29.853991922957412, 'name': 'AI-Powered DEX', 'symbol': 'AI-POWERED', 'uri': 'https://ipfs.io/ipfs/QmdFEbQhCQZR48bhs3NC3KkiSrAe9GXJNoTg8eE2rRbXJ6', 'pool': 'pump'}
+2025-01-25 21:41:08,972 - root - ERROR - Begin to extract_coin_detail_from_message BTvuFPJHk4nXDv7MAUrWud3tJsvC8KcRcEmbMvnJpump
+2025-01-25 21:41:18,973 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/BTvuFPJHk4nXDv7MAUrWud3tJsvC8KcRcEmbMvnJpump:
+2025-01-25 21:41:28,961 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmdFEbQhCQZR48bhs3NC3KkiSrAe9GXJNoTg8eE2rRbXJ6:
+2025-01-25 21:41:28,961 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:41:28,962 - root - ERROR - 
+
+2025-01-25 21:41:28,962 - root - ERROR - Begin to get {'signature': '4nisW6WSE2WZxgzBveRXGGBVsJpEvtTGVRWJhPtJcGrmLjfCw7KcP89GY645M4HHqyNerzVJJ4JrV4yC5aSzsSFM', 'mint': 'GpcB2hBnoAcAvq5Et2P4kdmuyas41dc32TMrgeJJpump', 'traderPublicKey': 'AwpoLBNd8DQDMKNDkfkLpjGk8Mypxj2mYd1XXNNH9wg3', 'txType': 'create', 'initialBuy': 79481481.481481, 'solAmount': 2.4, 'bondingCurveKey': 'HZgjksSgKnDHDkuMPbzubqUQDrQP4zQBkPLKFEXGBg1j', 'vTokensInBondingCurve': 993518518.518519, 'vSolInBondingCurve': 32.399999999999984, 'marketCapSol': 32.6113699906803, 'name': 'DOGESHIBA', 'symbol': 'DOGESHIBA', 'uri': 'https://ipfs.io/ipfs/QmbFfBQYCzjUNDWEkS8jHPvQSbuTmSnR948cgZWRkPCnzX', 'pool': 'pump'}
+2025-01-25 21:41:28,962 - root - ERROR - Begin to extract_coin_detail_from_message GpcB2hBnoAcAvq5Et2P4kdmuyas41dc32TMrgeJJpump
+2025-01-25 21:41:38,974 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/GpcB2hBnoAcAvq5Et2P4kdmuyas41dc32TMrgeJJpump:
+2025-01-25 21:41:48,964 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmbFfBQYCzjUNDWEkS8jHPvQSbuTmSnR948cgZWRkPCnzX:
+2025-01-25 21:41:48,965 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:41:48,965 - root - ERROR - 
+
+2025-01-25 21:41:48,965 - root - ERROR - Begin to get {'signature': '65BFab1BsVZBxxs1Pksqf44ZkEpvxLAi9EWMKPGiixMeybdVQJJgYa3MZJoV2NZ2FaXmwvxGHks6AVQxhYN8cjQW', 'mint': 'EvsSE3U5ZVBodNE5CfynAZyiQKPtP7TboGnZxzD7pump', 'traderPublicKey': 'BfFN3TqbmEmGShQUToxahYvtzJvxTWyxL31NLfvL3ris', 'txType': 'create', 'initialBuy': 5338308.457711, 'solAmount': 0.15, 'bondingCurveKey': '6nMCiawxR5wdPfFW9t2ht6ndNYtjm1URMgn1Yhs3aJWC', 'vTokensInBondingCurve': 1067661691.542289, 'vSolInBondingCurve': 30.149999999999988, 'marketCapSol': 28.239282385834084, 'name': 'FROGS BRO', 'symbol': 'FROGS BRO', 'uri': 'https://ipfs.io/ipfs/QmXAp7NYWCbHQDYBPnJqUkjJkvxnDeLpcy9PVrPVKU2ioZ', 'pool': 'pump'}
+2025-01-25 21:41:48,967 - root - ERROR - Begin to extract_coin_detail_from_message EvsSE3U5ZVBodNE5CfynAZyiQKPtP7TboGnZxzD7pump
+2025-01-25 21:41:58,980 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/EvsSE3U5ZVBodNE5CfynAZyiQKPtP7TboGnZxzD7pump:
+2025-01-25 21:42:09,969 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmXAp7NYWCbHQDYBPnJqUkjJkvxnDeLpcy9PVrPVKU2ioZ:
+2025-01-25 21:42:09,969 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:42:09,970 - root - ERROR - 
+
+2025-01-25 21:42:09,970 - root - ERROR - 'NoneType' object has no attribute 'resume_reading'
+Traceback (most recent call last):
+  File "D:\www\pcoin\get_new_coins.py", line 132, in <module>
+    asyncio.get_event_loop().run_until_complete(subscribe())  # 尝试运行函数
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "D:\www\pcoin\get_new_coins.py", line 29, in subscribe
+    async for message in websocket:
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\connection.py", line 242, in __aiter__
+    yield await self.recv()
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\connection.py", line 294, in recv
+    return await self.recv_messages.get(decode)
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\messages.py", line 151, in get
+    self.maybe_resume()
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\messages.py", line 280, in maybe_resume
+    self.resume()
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\asyncio\sslproto.py", line 343, in resume_reading
+    self._ssl_protocol._transport.resume_reading()
+AttributeError: 'NoneType' object has no attribute 'resume_reading'
+2025-01-25 21:42:21,353 - root - ERROR - Begin to get {'message': 'Successfully subscribed to token creation events.'}
+2025-01-25 21:42:21,354 - root - ERROR - 
+
+2025-01-25 21:42:22,458 - root - ERROR - Begin to get {'signature': 'z3LTZmK3cxJrQ1SvQ13VJAh6HcDH3b7QCmGX3d55aNKrXby9WWhjvWjCd4dZVnqKPhs2URUcUKYDgjiB8Tx7Pek', 'mint': 'H7hLV2ffKmXnEzCcNBqHaCSVXYrxApSja9CCcN7Hpump', 'traderPublicKey': 'GApia7cqLfQBpjaM9UF95ZiFnacmFqGYLTFiWqKScs5S', 'txType': 'create', 'initialBuy': 24465798.045602, 'solAmount': 0.7, 'bondingCurveKey': 'AbEWytNh4orxghZ28q5U24sfxyzesXfW2qRFzHjvF18g', 'vTokensInBondingCurve': 1048534201.954398, 'vSolInBondingCurve': 30.69999999999998, 'marketCapSol': 29.278968623796175, 'name': 'ProminenceSystemAI', 'symbol': 'Prominence', 'uri': 'https://gateway.irys.xyz/TxER95hKdQCTLxjiEO6in2UFNuywcXP55wkplywUQPs', 'pool': 'pump'}
+2025-01-25 21:42:22,459 - root - ERROR - Begin to extract_coin_detail_from_message H7hLV2ffKmXnEzCcNBqHaCSVXYrxApSja9CCcN7Hpump
+2025-01-25 21:42:32,986 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/H7hLV2ffKmXnEzCcNBqHaCSVXYrxApSja9CCcN7Hpump:
+2025-01-25 21:42:34,156 - root - ERROR - pump api fail, success call api https://gateway.irys.xyz/TxER95hKdQCTLxjiEO6in2UFNuywcXP55wkplywUQPs: {'name': 'ProminenceSystemAI', 'symbol': 'Prominence', 'description': 'ProminenceSystemAI\nhttps://www.prominence-system.xyz/', 'image': 'https://ipfs.io/ipfs/QmZVDNjzEFiXvY5KEcbPMYxSdNLwk3CE46PHzbhkd4hTGQ', 'showName': True, 'createdOn': 'https://pump.fun', 'website': 'https://www.prominence-system.xyz/', 'twitter': 'https://x.com/Prominence_Sys'}
+2025-01-25 21:42:34,156 - root - ERROR - INSERT INTO coins VALUES ('Prominence', 'H7hLV2ffKmXnEzCcNBqHaCSVXYrxApSja9CCcN7Hpump', '2025-01-25 21:42', '0.0000000293', 0.0,0.0,'GApia7cqLfQBpjaM9UF95ZiFnacmFqGYLTFiWqKScs5S','https://www.prominence-system.xyz/','None','https://x.com/Prominence_Sys','no')
+2025-01-25 21:42:34,165 - root - ERROR -  extract_coin_detail_from_message finish 
+2025-01-25 21:42:34,165 - root - ERROR - 
+
+2025-01-25 21:42:34,165 - root - ERROR - Begin to get {'signature': '3c96avDH6TxgTSUzjrJSgxCwntP3R3VtRMD9Jhm1M3PtfMrX71WCYmkEi4SJL9Do4QJUnTm7YsbzZHJYLRbSeqAi', 'mint': 'HSUPLZNqmWNJ6XDXrBjE8naG9dShfHs8mfUtjbfz8Hnc', 'traderPublicKey': 'Egc5U6LaSg2Fz2jVkGHhjkBautmCxsXwxaYwovpkK7By', 'txType': 'create', 'initialBuy': 34612903.225807, 'solAmount': 1, 'bondingCurveKey': 'J9AkH6ZVBJrmz9RFSuTgxEaUwQAMewtL6hmpEUWkpCr4', 'vTokensInBondingCurve': 1038387096.774193, 'vSolInBondingCurve': 31.000000000000014, 'marketCapSol': 29.85399192295747, 'name': 'LEAKED GTA-VI CRYPTOCURRENCY', 'symbol': 'VICECOIN', 'uri': 'https://ipfs.io/ipfs/QmYgrYYYhpLPoEcX1dwa4JVNJAKLuhsnSGuurujrPKsXKC', 'pool': 'pump'}
+2025-01-25 21:42:34,165 - root - ERROR - Begin to extract_coin_detail_from_message HSUPLZNqmWNJ6XDXrBjE8naG9dShfHs8mfUtjbfz8Hnc
+2025-01-25 21:42:44,972 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/HSUPLZNqmWNJ6XDXrBjE8naG9dShfHs8mfUtjbfz8Hnc:
+2025-01-25 21:42:54,970 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmYgrYYYhpLPoEcX1dwa4JVNJAKLuhsnSGuurujrPKsXKC:
+2025-01-25 21:42:54,970 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:42:54,970 - root - ERROR - 
+
+2025-01-25 21:42:54,971 - root - ERROR - Begin to get {'signature': '5GvcPxfGsfYWhLhK3hqfemigqfrAy4iNc8NpH2MoDFomcwSNRLtfgrx7V7LnYzegduEmTYEnxN7b2wGnrjatuyFA', 'mint': '4rdjN2bnqHKmzh9hAr73gFNRXcJ6YER4KWPrHrbgpump', 'traderPublicKey': 'FVP19XHSyr1i5oMjp7uYQUzdFTHwdWZCCVsqetmxbnke', 'txType': 'create', 'initialBuy': 7105960.2649, 'solAmount': 0.2, 'bondingCurveKey': '7fFcWjKK6FbyZn1FWApFZz4J1cY8CsqA9oJ29fpDNAZY', 'vTokensInBondingCurve': 1065894039.7351, 'vSolInBondingCurve': 30.19999999999998, 'marketCapSol': 28.33302267785023, 'name': 'Fart Smella', 'symbol': 'SNIFF', 'uri': 'https://ipfs.io/ipfs/Qmc6cLFTJ7QxitHFMBWjA3r15PDcV5F4T5BUiwtszUeMtc', 'pool': 'pump'}
+2025-01-25 21:42:54,971 - root - ERROR - Begin to extract_coin_detail_from_message 4rdjN2bnqHKmzh9hAr73gFNRXcJ6YER4KWPrHrbgpump
+2025-01-25 21:43:04,970 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/4rdjN2bnqHKmzh9hAr73gFNRXcJ6YER4KWPrHrbgpump:
+2025-01-25 21:43:14,984 - root - ERROR - Error fetching https://ipfs.io/ipfs/Qmc6cLFTJ7QxitHFMBWjA3r15PDcV5F4T5BUiwtszUeMtc:
+2025-01-25 21:43:14,984 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:43:14,985 - root - ERROR - 
+
+2025-01-25 21:43:14,985 - root - ERROR - Begin to get {'signature': '4ddhaTUL6xeyPcmrWoudE2MrrTJhXvF6LUnMnFFftzH52FxgoUquzEHqu2f5HV9Bx7A3e4z6wTSR9SM8fNGMJrxf', 'mint': '2u6F7tAsddDr8SQbUf7pYNUgRo12qLGn83BxRQ9npump', 'traderPublicKey': '5B9bqHJJjR4tPi6KE8ubkyYHBPY1PwuoquzouVhhWb6Q', 'txType': 'create', 'initialBuy': 24465798.045602, 'solAmount': 0.7, 'bondingCurveKey': 'BeVDimoX61Fiw1C6sqcHpocWWvfmGWcvqKNCWsYj6TYb', 'vTokensInBondingCurve': 1048534201.954398, 'vSolInBondingCurve': 30.69999999999998, 'marketCapSol': 29.278968623796175, 'name': 'FARTNOTE', 'symbol': 'FARTNOTE', 'uri': 'https://ipfs.io/ipfs/QmNYsXSHjyMypHqb4FkpaKXDWavk9hE6ZPtjCK5tAqcot5', 'pool': 'pump'}
+2025-01-25 21:43:14,985 - root - ERROR - Begin to extract_coin_detail_from_message 2u6F7tAsddDr8SQbUf7pYNUgRo12qLGn83BxRQ9npump
+2025-01-25 21:43:25,981 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/2u6F7tAsddDr8SQbUf7pYNUgRo12qLGn83BxRQ9npump:
+2025-01-25 21:43:36,983 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmNYsXSHjyMypHqb4FkpaKXDWavk9hE6ZPtjCK5tAqcot5:
+2025-01-25 21:43:36,983 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:43:36,983 - root - ERROR - 
+
+2025-01-25 21:43:36,983 - root - ERROR - Begin to get {'signature': '5vQ5taN1wPYZ5XRWhDwLv3DcymYLMXAYsxUVHbtLQBC2pkx5d15TvmDa8YqGaVs9typgxQkSNkXwnFDc5KhgFv34', 'mint': '7GskF5dEDeT3z599npNgufUFDGsgSWM8joADmq8hpump', 'traderPublicKey': 'BFK6qBur2oK19zVfWB8DZaTRe39Srfo7LgJkvjLg8YJe', 'txType': 'create', 'initialBuy': 2141716.566866, 'solAmount': 0.06, 'bondingCurveKey': 'BJKybr8dXgSWhtxSWghAoUCPNLJDq9fhhMR4Wds38f8R', 'vTokensInBondingCurve': 1070858283.433134, 'vSolInBondingCurve': 30.059999999999995, 'marketCapSol': 28.07094128611369, 'name': 'ART', 'symbol': 'ART', 'uri': 'https://ipfs.io/ipfs/QmZxkNqEomeZJpqiQuczngxsPZY2DSLMDKaL3DuS5CrNXa', 'pool': 'pump'}
+2025-01-25 21:43:36,983 - root - ERROR - Begin to extract_coin_detail_from_message 7GskF5dEDeT3z599npNgufUFDGsgSWM8joADmq8hpump
+2025-01-25 21:43:47,979 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/7GskF5dEDeT3z599npNgufUFDGsgSWM8joADmq8hpump:
+2025-01-25 21:43:58,966 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmZxkNqEomeZJpqiQuczngxsPZY2DSLMDKaL3DuS5CrNXa:
+2025-01-25 21:43:58,966 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:43:58,967 - root - ERROR - 
+
+2025-01-25 21:43:58,967 - root - ERROR - Begin to get {'signature': '5U648Z4qe25diReAGchndCTBGwDP6FSVCpmxnHLhoQyq3hGoquw7apHnYMXKc6YAkaasY4u3hAqPyxzFvcRGrxig', 'mint': 'Av8yhkWTJNTjNUzfmKGhAfJWehvqEV2MNcMnK7vypump', 'traderPublicKey': '621Esnz3C7QKdzsyqrHvQAbyWtZDzqmh7CkJvej1JS6W', 'txType': 'create', 'initialBuy': 429028.388644, 'solAmount': 0.012, 'bondingCurveKey': '9UrhJrKWpUG7forBGF9MZpWNwpzMr6zZKUqJwj3iCKcH', 'vTokensInBondingCurve': 1072570971.611356, 'vSolInBondingCurve': 30.011999999999983, 'marketCapSol': 27.98136514445477, 'name': 'PORSCHE', 'symbol': 'Porsche', 'uri': 'https://ipfs.io/ipfs/Qme12NuyoMDr4XTh8i9Q1JHCVFkHxthmuRmWUG2YUDLSJm', 'pool': 'pump'}
+2025-01-25 21:43:58,967 - root - ERROR - Begin to extract_coin_detail_from_message Av8yhkWTJNTjNUzfmKGhAfJWehvqEV2MNcMnK7vypump
+2025-01-25 21:44:08,982 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/Av8yhkWTJNTjNUzfmKGhAfJWehvqEV2MNcMnK7vypump:
+2025-01-25 21:44:19,973 - root - ERROR - Error fetching https://ipfs.io/ipfs/Qme12NuyoMDr4XTh8i9Q1JHCVFkHxthmuRmWUG2YUDLSJm:
+2025-01-25 21:44:19,973 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:44:19,973 - root - ERROR - 
+
+2025-01-25 21:44:19,974 - root - ERROR - Begin to get {'signature': '4vfE4ppxsQUs5zWhMw9o5Xo2NdqPj22mcmdDftvZbPB51pbz4Rn3sXciZdGK2VMgGpdivowNx3Ty3drzqeAJ59Fj', 'mint': 'A2WPn1dSe6xfvFVMkDASf2oXWuvpdE5tqy7W2Du2pump', 'traderPublicKey': 'GQB5MjkmP9auSju48wvk3MFe5GrLGbLfb4d98BVfavFb', 'txType': 'create', 'initialBuy': 27870129.870129, 'solAmount': 0.8, 'bondingCurveKey': '3Ykb2WbynaBKvwFMf33X35ykKrCkbaw1HFxDt5UdGoRb', 'vTokensInBondingCurve': 1045129870.129871, 'vSolInBondingCurve': 30.799999999999972, 'marketCapSol': 29.470021745883763, 'name': 'FART SUPERCYCLE', 'symbol': 'FSC', 'uri': 'https://ipfs.io/ipfs/QmcbQQW8oXSuYfx756pkw1ViBKfLeRgzjDWyk7jj4nkacc', 'pool': 'pump'}
+2025-01-25 21:44:19,974 - root - ERROR - Begin to extract_coin_detail_from_message A2WPn1dSe6xfvFVMkDASf2oXWuvpdE5tqy7W2Du2pump
+2025-01-25 21:44:29,968 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/A2WPn1dSe6xfvFVMkDASf2oXWuvpdE5tqy7W2Du2pump:
+2025-01-25 21:44:39,974 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmcbQQW8oXSuYfx756pkw1ViBKfLeRgzjDWyk7jj4nkacc:
+2025-01-25 21:44:39,974 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:44:39,975 - root - ERROR - 
+
+2025-01-25 21:44:39,975 - root - ERROR - Begin to get {'signature': '3Esrqf6XX5UdDC2hM21ioohiH22ZCeNoWi1zU2YzuY1DbcgMxX96HNnZs1WeqxZT822kwFWxjE781Lvc4UpHJi5L', 'mint': '224uExQphWQpoRaphrt9zvEQDH6SdERJM14BoeQ9pump', 'traderPublicKey': '6QYw42CqwW7JjMpesDKH2tiA76yvrPefpEAc2bsh1hKd', 'txType': 'create', 'initialBuy': 0, 'solAmount': 0, 'bondingCurveKey': '2t42rpJM5zgihcrpNo2RSGXETQaHknBWUZbHaijLZwyz', 'vTokensInBondingCurve': 1073000000, 'vSolInBondingCurve': 30, 'marketCapSol': 27.958993476234856, 'name': 'PixelBridge', 'symbol': 'PIX', 'uri': 'https://ipfs.io/ipfs/QmXGex4c99TgPv95v1zuJVtg4qYwX5nND4C8ZGxhg7VBwk', 'pool': 'pump'}
+2025-01-25 21:44:39,975 - root - ERROR - Begin to extract_coin_detail_from_message 224uExQphWQpoRaphrt9zvEQDH6SdERJM14BoeQ9pump
+2025-01-25 21:44:50,969 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/224uExQphWQpoRaphrt9zvEQDH6SdERJM14BoeQ9pump:
+2025-01-25 21:45:00,981 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmXGex4c99TgPv95v1zuJVtg4qYwX5nND4C8ZGxhg7VBwk:
+2025-01-25 21:45:00,982 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:45:00,982 - root - ERROR - 
+
+2025-01-25 21:45:00,982 - root - ERROR - Begin to get {'signature': '38sjKcWm45ziYWUz3F617j7vvrbFmV7bnasaBtWbbegWsBLhKx8tuBD76aAA8pc2Zf547H1nEYhqGA3t36tJwCg2', 'mint': '81D4ZcQV2GbvdLw1H7zscAhWUvwaikWZkk6E58pwpump', 'traderPublicKey': 'GQEJjPGRqZT7zaNyJ79d3WEc8xQvNZXWgMpHAaG7znC9', 'txType': 'create', 'initialBuy': 34612903.225806, 'solAmount': 1, 'bondingCurveKey': '83XgwE91arcNVJaRJr1jNhzeZN1b2UaL5ivF3Aej6e3k', 'vTokensInBondingCurve': 1038387096.774194, 'vSolInBondingCurve': 30.999999999999986, 'marketCapSol': 29.853991922957412, 'name': 'First Ever Fartcoin', 'symbol': 'FARTCOIN', 'uri': 'https://ipfs.io/ipfs/QmdNFF9idEWFN5zeUM9UzhMCMarQ4XUJyYfSs1hHeu7evR', 'pool': 'pump'}
+2025-01-25 21:45:00,982 - root - ERROR - Begin to extract_coin_detail_from_message 81D4ZcQV2GbvdLw1H7zscAhWUvwaikWZkk6E58pwpump
+2025-01-25 21:45:11,979 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/81D4ZcQV2GbvdLw1H7zscAhWUvwaikWZkk6E58pwpump:
+2025-01-25 21:45:22,979 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmdNFF9idEWFN5zeUM9UzhMCMarQ4XUJyYfSs1hHeu7evR:
+2025-01-25 21:45:22,980 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:45:22,980 - root - ERROR - 
+
+2025-01-25 21:45:22,980 - root - ERROR - Begin to get {'signature': '2ZaK1GbiTdoVMUzqpdXebGqL1gP6NSKJZZFrhNFuQYtupVur2uQiBVXDyB8KtWGpvJfimUsXF917CG8ErRmKGS1G', 'mint': '2xbYzkUJsAVzrLudfCn45ip1ZyiVbdKoWzhvahyBpump', 'traderPublicKey': '7JebNX1zCAPBH3Pvubd8huNhyMUkpdZgJTMMH2bTFPgm', 'txType': 'create', 'initialBuy': 67062499.999999, 'solAmount': 2, 'bondingCurveKey': 'EDqmp5htCxydReHKJuxNRSjSSKZ6H2DzKPx6RqPfMs5y', 'vTokensInBondingCurve': 1005937500.000001, 'vSolInBondingCurve': 31.999999999999968, 'marketCapSol': 31.811121466293816, 'name': 'fartcoin whitepaper', 'symbol': 'FW', 'uri': 'https://ipfs.io/ipfs/QmbEjx5zZt3Fat8F28YmJ5xTB6hKFxuFj9Vwhe6jdjR2N7', 'pool': 'pump'}
+2025-01-25 21:45:22,980 - root - ERROR - Begin to extract_coin_detail_from_message 2xbYzkUJsAVzrLudfCn45ip1ZyiVbdKoWzhvahyBpump
+2025-01-25 21:45:33,970 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/2xbYzkUJsAVzrLudfCn45ip1ZyiVbdKoWzhvahyBpump:
+2025-01-25 21:45:43,980 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmbEjx5zZt3Fat8F28YmJ5xTB6hKFxuFj9Vwhe6jdjR2N7:
+2025-01-25 21:45:43,980 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:45:43,980 - root - ERROR - 
+
+2025-01-25 21:45:43,981 - root - ERROR - Begin to get {'signature': '5YkDLMsRJ5K7fyahRJffw1NZY5J6R7B3Pq5rfim2bWKzNKbqMUZwjeWNoySRtZp1wfUAKBTAyDK4JUSDNtWWVvmG', 'mint': 'DPzaCeMVdiGL5BxNKLzsGVjK894EsbntRJ8vzgaXmMPo', 'traderPublicKey': '4P8H8uXbk9tPgYrjTvFA6vvNZAojnjovxD6oQ54zXbFS', 'txType': 'create', 'initialBuy': 82538461.538461, 'solAmount': 2.5, 'bondingCurveKey': '95jqXYA2uo2c3VBLfSypuamPSDR3c6MNk4pdgabBapfA', 'vTokensInBondingCurve': 990461538.461539, 'vSolInBondingCurve': 32.49999999999998, 'marketCapSol': 32.81298539919226, 'name': '1st Man Killed By Farting', 'symbol': 'PETE', 'uri': 'https://ipfs.io/ipfs/QmZ5yrrpr6KcZjNYWovioBd2BUHd3n6aiaBx1AWNu7xwJd', 'pool': 'pump'}
+2025-01-25 21:45:43,981 - root - ERROR - Begin to extract_coin_detail_from_message DPzaCeMVdiGL5BxNKLzsGVjK894EsbntRJ8vzgaXmMPo
+2025-01-25 21:45:54,972 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/DPzaCeMVdiGL5BxNKLzsGVjK894EsbntRJ8vzgaXmMPo:
+2025-01-25 21:46:04,977 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmZ5yrrpr6KcZjNYWovioBd2BUHd3n6aiaBx1AWNu7xwJd:
+2025-01-25 21:46:04,978 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:46:04,978 - root - ERROR - 
+
+2025-01-25 21:46:04,978 - root - ERROR - Begin to get {'signature': 'kdggr58ksUDDkoVmGWMEBtunr96JLWALb8r7LTW3akgcuXbSYmL9TvnTbrz2MGTVcTka55TLedxPjiCQhamw79P', 'mint': 'AutS5Rwkhpivv5hNemcwrsemacvdnACtgTpPLNvcqqz6', 'traderPublicKey': 'ELVKz2qx9FerbodKgxVo2sXv6nnG6v4iu5f3cTTcjt6f', 'txType': 'create', 'initialBuy': 126235294.117647, 'solAmount': 4, 'bondingCurveKey': 'EEwHxaPPrBi1DwSnxV8PZpewVWioDu6HmtAsm1CyRpMs', 'vTokensInBondingCurve': 946764705.882353, 'vSolInBondingCurve': 34, 'marketCapSol': 35.91177384280832, 'name': 'Libby', 'symbol': 'LIBBY', 'uri': 'https://ipfs.io/ipfs/QmYFAVohWV7p6AcwQaTFa9AwVp5Y2rdEYwTj282P2JU4iu', 'pool': 'pump'}
+2025-01-25 21:46:04,978 - root - ERROR - Begin to extract_coin_detail_from_message AutS5Rwkhpivv5hNemcwrsemacvdnACtgTpPLNvcqqz6
+2025-01-25 21:46:15,977 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/AutS5Rwkhpivv5hNemcwrsemacvdnACtgTpPLNvcqqz6:
+2025-01-25 21:46:26,970 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmYFAVohWV7p6AcwQaTFa9AwVp5Y2rdEYwTj282P2JU4iu:
+2025-01-25 21:46:26,971 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:46:26,971 - root - ERROR - 
+
+2025-01-25 21:46:26,971 - root - ERROR - Begin to get {'signature': '4PhSE9vPzmyJTd8wiEBPPgpnmigggxUcL8hwppT1LCpmSpMUTLDqWSy8ZKqfveuqVsccYpoqF1idRrH8MEzn191r', 'mint': 'H8ANkb5vuh4dBL7kZUw6N8eGLwBXLs4PkbVZmVgjpump', 'traderPublicKey': '8zi1zCNcNY5wjoPXvdfjymdmTKuUAupQtMfKGzC9ynKj', 'txType': 'create', 'initialBuy': 24465798.045602, 'solAmount': 0.7, 'bondingCurveKey': 'BTfFfLMrj65CxPRJGJ53qEdkjjGSAZTjsdXE42gQUTyS', 'vTokensInBondingCurve': 1048534201.954398, 'vSolInBondingCurve': 30.69999999999998, 'marketCapSol': 29.278968623796175, 'name': '$NIGGER EASTER', 'symbol': '$NIGGER', 'uri': 'https://ipfs.io/ipfs/QmZBzSZxjcDCJtQDo2hPy7Rb91y5qsHRCLFoLqwE9sHw3x', 'pool': 'pump'}
+2025-01-25 21:46:26,971 - root - ERROR - Begin to extract_coin_detail_from_message H8ANkb5vuh4dBL7kZUw6N8eGLwBXLs4PkbVZmVgjpump
+2025-01-25 21:46:36,987 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/H8ANkb5vuh4dBL7kZUw6N8eGLwBXLs4PkbVZmVgjpump:
+2025-01-25 21:46:47,977 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmZBzSZxjcDCJtQDo2hPy7Rb91y5qsHRCLFoLqwE9sHw3x:
+2025-01-25 21:46:47,977 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:46:47,978 - root - ERROR - 
+
+2025-01-25 21:46:47,978 - root - ERROR - Begin to get {'signature': '2gXqwn21msYnF325Qq4DsH5FwBqNTuroU12JF3vYRnbsByMpDicpdqvhFdfSUpV9fXYCugiwX8TrN7QdCWUPPdjC', 'mint': 'EkouHDuLqCYYh4NmjXJQggcScmirxV6sdQFRcTBGpump', 'traderPublicKey': 'AoXAHatvdroZ2RH6AYvgW6QuJtLHPMRc4dwXz1CafzvS', 'txType': 'create', 'initialBuy': 357547.484171, 'solAmount': 0.01, 'bondingCurveKey': '7X22Humz5ieEHbCtwR5WSsYzdbXziNsa1gTHoB3iiVxU', 'vTokensInBondingCurve': 1072642452.515829, 'vSolInBondingCurve': 30.009999999999973, 'marketCapSol': 27.977635911773792, 'name': 'Shane Gillis Official', 'symbol': 'SHANE', 'uri': 'https://ipfs.io/ipfs/QmNSKnuHgnsi5AZsjxuhxJZm3GnX5MEVp1C7PuLBCTpctz', 'pool': 'pump'}
+2025-01-25 21:46:47,978 - root - ERROR - Begin to extract_coin_detail_from_message EkouHDuLqCYYh4NmjXJQggcScmirxV6sdQFRcTBGpump
+2025-01-25 21:46:58,972 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/EkouHDuLqCYYh4NmjXJQggcScmirxV6sdQFRcTBGpump:
+2025-01-25 21:47:08,982 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmNSKnuHgnsi5AZsjxuhxJZm3GnX5MEVp1C7PuLBCTpctz:
+2025-01-25 21:47:08,983 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:47:08,983 - root - ERROR - 
+
+2025-01-25 21:47:08,984 - root - ERROR - 'NoneType' object has no attribute 'resume_reading'
+Traceback (most recent call last):
+  File "D:\www\pcoin\get_new_coins.py", line 132, in <module>
+    asyncio.get_event_loop().run_until_complete(subscribe())  # 尝试运行函数
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "D:\www\pcoin\get_new_coins.py", line 29, in subscribe
+    async for message in websocket:
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\connection.py", line 242, in __aiter__
+    yield await self.recv()
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\connection.py", line 294, in recv
+    return await self.recv_messages.get(decode)
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\messages.py", line 151, in get
+    self.maybe_resume()
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\messages.py", line 280, in maybe_resume
+    self.resume()
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\asyncio\sslproto.py", line 343, in resume_reading
+    self._ssl_protocol._transport.resume_reading()
+AttributeError: 'NoneType' object has no attribute 'resume_reading'
+2025-01-25 21:47:21,050 - root - ERROR - Begin to get {'message': 'Successfully subscribed to token creation events.'}
+2025-01-25 21:47:21,050 - root - ERROR - 
+
+2025-01-25 21:47:21,338 - root - ERROR - Begin to get {'signature': '2wGd3q1avoX62ZHvUU4tnQUu945BG6m7qXsL967sF8iZUv3GkQov4KkAabppqvaYPyj3ZSEqxGMV7HFKuYxvWFYK', 'mint': '4z8sHWmNzTF5uxqUpgR526tJ8sPWNRoMYDZNBSAYCqNk', 'traderPublicKey': '3XTZPmyFuzh5UyqVFz4HnjUj9GpoHtpHx82f9fTdE6Jw', 'txType': 'create', 'initialBuy': 714856.762158, 'solAmount': 0.02, 'bondingCurveKey': '1p7o7Mj93JUGygRq23NkTaJAQsnvei77JvGBjqyRaM6', 'vTokensInBondingCurve': 1072285143.237842, 'vSolInBondingCurve': 30.019999999999985, 'marketCapSol': 27.996284560422463, 'name': 'METRO', 'symbol': 'MTR', 'uri': 'https://ipfs.io/ipfs/QmcvNy2w7wHm4HKMHf7SzVYyR8p9nEfCebftbvguo776Wv', 'pool': 'pump'}
+2025-01-25 21:47:21,339 - root - ERROR - Begin to extract_coin_detail_from_message 4z8sHWmNzTF5uxqUpgR526tJ8sPWNRoMYDZNBSAYCqNk
+2025-01-25 21:47:31,976 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/4z8sHWmNzTF5uxqUpgR526tJ8sPWNRoMYDZNBSAYCqNk:
+2025-01-25 21:47:42,988 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmcvNy2w7wHm4HKMHf7SzVYyR8p9nEfCebftbvguo776Wv:
+2025-01-25 21:47:42,988 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:47:42,988 - root - ERROR - 
+
+2025-01-25 21:47:42,988 - root - ERROR - Begin to get {'signature': '62aiF5vDq4vm6LRP6RLsEmZKmYjJG6ijVEpwXLrM9HY3cppRwRL3419KjCNy6GKWPPxG7jAZPa5YMHeqR5DnqFnD', 'mint': '3vX9h8oMCy2Fx25M3Ztsv68qGe5ZmzomjTtqvitZpump', 'traderPublicKey': 'EdM8HSZzBjMUrmAsaQENbDvLeyn3AE8qPckv7jSgxHjb', 'txType': 'create', 'initialBuy': 1785357.737104, 'solAmount': 0.05, 'bondingCurveKey': 'Dscna43Kg4z1psXzMRMESaTA2SR8aQzTPT2DgQNLMcdu', 'vTokensInBondingCurve': 1071214642.262896, 'vSolInBondingCurve': 30.04999999999998, 'marketCapSol': 28.052267785026366, 'name': 'HABBO', 'symbol': 'HABBO', 'uri': 'https://ipfs.io/ipfs/QmZk9hm1RG4D7EeJj9T7qNdYvKFE2qN6g5cUUK9RLhnKd1', 'pool': 'pump'}
+2025-01-25 21:47:42,989 - root - ERROR - Begin to extract_coin_detail_from_message 3vX9h8oMCy2Fx25M3Ztsv68qGe5ZmzomjTtqvitZpump
+2025-01-25 21:47:53,984 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/3vX9h8oMCy2Fx25M3Ztsv68qGe5ZmzomjTtqvitZpump:
+2025-01-25 21:48:04,085 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmZk9hm1RG4D7EeJj9T7qNdYvKFE2qN6g5cUUK9RLhnKd1:Cannot connect to host ipfs.io:443 ssl:default [由本地系统中止网络连接。]
+2025-01-25 21:48:04,086 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:48:04,086 - root - ERROR - 
+
+2025-01-25 21:48:04,086 - root - ERROR - Begin to get {'signature': '5PUhU2btVx6Q5Zjqv2yT383T3yEbrdJrYR151qHpgh8WnUJDTn5A7srxwmhkrdWpjPrqHymPB4p6ou8Ps9G1W9TW', 'mint': '3iG8owdSdFmZUx3AS98fA8Nb5nvMgepF5UPzJExCpump', 'traderPublicKey': 'nC4Tf3nzLv43Ci1vPCe1C8DPzCVxrXB8NNYkmxxQea9', 'txType': 'create', 'initialBuy': 0.2, 'solAmount': 6e-09, 'bondingCurveKey': 'GMgRSr1WN8UFaSxZBSuV2m4NbTftZLThrJJqZRoZvqtz', 'vTokensInBondingCurve': 1072999999.8, 'vSolInBondingCurve': 30.0000000055918, 'marketCapSol': 27.958993486657594, 'name': 'TRANNY PANNY PUMP COIN', 'symbol': 'TPPC', 'uri': 'https://ipfs.io/ipfs/QmRDYhxBxb68xYMJ6jShHX2MXqePYoD3kU1QavRyZqKQpy', 'pool': 'pump'}
+2025-01-25 21:48:04,087 - root - ERROR - Begin to extract_coin_detail_from_message 3iG8owdSdFmZUx3AS98fA8Nb5nvMgepF5UPzJExCpump
+2025-01-25 21:48:14,977 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/3iG8owdSdFmZUx3AS98fA8Nb5nvMgepF5UPzJExCpump:
+2025-01-25 21:48:25,977 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmRDYhxBxb68xYMJ6jShHX2MXqePYoD3kU1QavRyZqKQpy:
+2025-01-25 21:48:25,978 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:48:25,978 - root - ERROR - 
+
+2025-01-25 21:48:25,978 - root - ERROR - Begin to get {'signature': '5MEYattx1fJedFSJE68hA8r6z28joTj9aDsBZNM3iFXKtVs9mfR5fqiZcbBEmSQJ1ZSL46FveUu9byWXomMASF5v', 'mint': 'WQ3rVAz8z7XrpaPcAo6LSxdvRZCqtGyt2SKNFtKSAnX', 'traderPublicKey': 'EoNi8DE6ARsMSRePrCY4AoMgGoNAMMkFUjEUBMzQfJ42', 'txType': 'create', 'initialBuy': 1428761.651131, 'solAmount': 0.04, 'bondingCurveKey': 'r6NkHEQ8wSMegfTcxFiLbCKqi1GjDfosucmeiNpjWWi', 'vTokensInBondingCurve': 1071571238.348869, 'vSolInBondingCurve': 30.039999999999978, 'marketCapSol': 28.03360049704873, 'name': 'Virtual protocol', 'symbol': 'Virtual', 'uri': 'https://ipfs.io/ipfs/QmdJdkE5wJxV3fy9JJnsfts2yxjK5Kx9gYz2HUn9rRLVcR', 'pool': 'pump'}
+2025-01-25 21:48:25,978 - root - ERROR - Begin to extract_coin_detail_from_message WQ3rVAz8z7XrpaPcAo6LSxdvRZCqtGyt2SKNFtKSAnX
+2025-01-25 21:48:36,985 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/WQ3rVAz8z7XrpaPcAo6LSxdvRZCqtGyt2SKNFtKSAnX:
+2025-01-25 21:48:47,985 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmdJdkE5wJxV3fy9JJnsfts2yxjK5Kx9gYz2HUn9rRLVcR:
+2025-01-25 21:48:47,985 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:48:47,985 - root - ERROR - 
+
+2025-01-25 21:48:47,985 - root - ERROR - Begin to get {'signature': '5qdBkXA1MjfWhotj6TixBdZdRBaJgJ22trCUnL5fTdDaYvqmHkC4NGFw2w3Gxedq8uWF9hMHqX44etHFuj11EY1h', 'mint': 'DAzAk1gXADcBFo7XQuqay71fHNzkt7CKg9RjCEywpump', 'traderPublicKey': '7tgcG9Gpzb3m6Ab94CG2TnsfBkkBv2yWretLhjTzmMYw', 'txType': 'create', 'initialBuy': 2853723.404255, 'solAmount': 0.08, 'bondingCurveKey': 'GimL8jfyW9n9r4QuwQHHx2n9kr8Bbuikb7R9snbsPx9p', 'vTokensInBondingCurve': 1070146276.595745, 'vSolInBondingCurve': 30.07999999999999, 'marketCapSol': 28.108306927617257, 'name': 'Make America Fart Again', 'symbol': 'FartDon', 'uri': 'https://ipfs.io/ipfs/QmZRxfSYH99qeDMGzAP2opkUhKkqmxjpJ3TtM828tF55K5', 'pool': 'pump'}
+2025-01-25 21:48:47,985 - root - ERROR - Begin to extract_coin_detail_from_message DAzAk1gXADcBFo7XQuqay71fHNzkt7CKg9RjCEywpump
+2025-01-25 21:48:58,983 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/DAzAk1gXADcBFo7XQuqay71fHNzkt7CKg9RjCEywpump:
+2025-01-25 21:49:09,978 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmZRxfSYH99qeDMGzAP2opkUhKkqmxjpJ3TtM828tF55K5:
+2025-01-25 21:49:09,978 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:49:09,979 - root - ERROR - 
+
+2025-01-25 21:49:09,979 - root - ERROR - Begin to get {'signature': '4WHJs2sfQJiaBV1DNjd4jCxYg2neMwmahfwjHVgEt9hTGSQqGRcgMMeQsJV8YdoHbWJA7K7hVWmcMXxQQ7WnF4iv', 'mint': '6dJJJhquZGm3XTJyJGn7cRMpdVRzf8x8YEPqfDowpump', 'traderPublicKey': 'JBN7JKUfnx8NNjuXCjapDECDd9CVmVEUu3cb8VxqDaxE', 'txType': 'create', 'initialBuy': 4274900.398406, 'solAmount': 0.12, 'bondingCurveKey': 'HfkJxyHGv7YiJK4cX6a3vovjdeTJAcRwHEViZYZ5468v', 'vTokensInBondingCurve': 1068725099.601594, 'vSolInBondingCurve': 30.11999999999999, 'marketCapSol': 28.183112767940337, 'name': 'Michael Jordan official', 'symbol': 'MJoff', 'uri': 'https://ipfs.io/ipfs/QmVSMyUNqsF5YhF2QnGLxGJFVutnBzKQZBvnYTiSXoqd4e', 'pool': 'pump'}
+2025-01-25 21:49:09,979 - root - ERROR - Begin to extract_coin_detail_from_message 6dJJJhquZGm3XTJyJGn7cRMpdVRzf8x8YEPqfDowpump
+2025-01-25 21:49:20,963 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/6dJJJhquZGm3XTJyJGn7cRMpdVRzf8x8YEPqfDowpump:
+2025-01-25 21:49:30,983 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmVSMyUNqsF5YhF2QnGLxGJFVutnBzKQZBvnYTiSXoqd4e:
+2025-01-25 21:49:30,983 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:49:30,984 - root - ERROR - 
+
+2025-01-25 21:49:30,984 - root - ERROR - Begin to get {'signature': '2aJfpMtk4eaWHrKBPYXFCYrKmXQrCf4YQvp7fkfaizwH3VdZYeLCqW48ySwZSTS76e6F93enPYNZM4vME65nXNnf', 'mint': 'Gxd6dmmA1SnR3isMUnyhk44pjg7fBdtsMK88Sf5Mpump', 'traderPublicKey': '7MiPiavDsQfFbbMUbXPoFtQ2CKAVbTDDpMvhWnYMuY8v', 'txType': 'create', 'initialBuy': 67062499.999999, 'solAmount': 2, 'bondingCurveKey': '4rEWXsAWYceUehDDQJ1LhzbCQQPVMgajCKdS5gpo3qzu', 'vTokensInBondingCurve': 1005937500.000001, 'vSolInBondingCurve': 31.999999999999968, 'marketCapSol': 31.811121466293816, 'name': 'AdsPower Browser', 'symbol': 'AdsPower', 'uri': 'https://ipfs.io/ipfs/QmVMJRxjEB6MnVFkdj5zhd8b4ydg6FZoVRPWHmNreYt6bC', 'pool': 'pump'}
+2025-01-25 21:49:30,984 - root - ERROR - Begin to extract_coin_detail_from_message Gxd6dmmA1SnR3isMUnyhk44pjg7fBdtsMK88Sf5Mpump
+2025-01-25 21:49:41,977 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/Gxd6dmmA1SnR3isMUnyhk44pjg7fBdtsMK88Sf5Mpump:
+2025-01-25 21:49:52,976 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmVMJRxjEB6MnVFkdj5zhd8b4ydg6FZoVRPWHmNreYt6bC:
+2025-01-25 21:49:52,977 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:49:52,977 - root - ERROR - 
+
+2025-01-25 21:49:52,977 - root - ERROR - Begin to get {'signature': 'CCDp8yppSZpyv6Av7X5HGkhchxdBRukpQuJpN7pJBdAoN5USth4PnooDfGcwxfKQfLbUU8kkmSTGuD1N4NvJBrh', 'mint': 'Fr9vgsahaTfpRHfu8xR6vhiPcRm5DjP4AqxkBbdDpump', 'traderPublicKey': '8DwbwPCqxtnupx8fRrT7Gy2c5vhZ3ANwvmQT2KrXZMWy', 'txType': 'create', 'initialBuy': 45878111.040204, 'solAmount': 1.34, 'bondingCurveKey': '9JHwdNUpcnnd8hC5DnvqoRG4LkiZphFKWowkAgA46gDE', 'vTokensInBondingCurve': 1027121888.959796, 'vSolInBondingCurve': 31.339999999999996, 'marketCapSol': 30.51244485865175, 'name': ' JOJO', 'symbol': ' JOJO', 'uri': 'https://ipfs.io/ipfs/QmXkMPFcwizqPtcrqszrr5uGiwkJZwXtfk8wya9EdgSSCU', 'pool': 'pump'}
+2025-01-25 21:49:52,977 - root - ERROR - Begin to extract_coin_detail_from_message Fr9vgsahaTfpRHfu8xR6vhiPcRm5DjP4AqxkBbdDpump
+2025-01-25 21:50:03,979 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/Fr9vgsahaTfpRHfu8xR6vhiPcRm5DjP4AqxkBbdDpump:
+2025-01-25 21:50:14,994 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmXkMPFcwizqPtcrqszrr5uGiwkJZwXtfk8wya9EdgSSCU:
+2025-01-25 21:50:14,994 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:50:14,995 - root - ERROR - 
+
+2025-01-25 21:50:14,995 - root - ERROR - Begin to get {'signature': '2dB93rRKDjBwvSFTRwLipm3bYFFBvtEqwt7C7Jcfz4RHrguLJdPdPywmWtpj3MJHFk5eUHfgrudDSjv7RJfMiyiu', 'mint': '8cxU6pFmXb7zHw1Xbf8N3w9mv1oEKegPtMJ4iNAYpump', 'traderPublicKey': 'CBQn1Et3ysZppZnbxdnnzTCqhgyckt327LcPkevF8hWU', 'txType': 'create', 'initialBuy': 3564784.053156, 'solAmount': 0.1, 'bondingCurveKey': '7Niq6AVhCKeGRRTPHDGkXTeAszm5fmCdz6BftthoC3qi', 'vTokensInBondingCurve': 1069435215.946844, 'vSolInBondingCurve': 30.099999999999998, 'marketCapSol': 28.145697421559486, 'name': 'test', 'symbol': 'test', 'uri': 'https://ipfs.io/ipfs/QmfAqoYD13mccWqRhTDq6wD8Fs6ZrjKU4xiwCFsbhj4qxU', 'pool': 'pump'}
+2025-01-25 21:50:14,995 - root - ERROR - Begin to extract_coin_detail_from_message 8cxU6pFmXb7zHw1Xbf8N3w9mv1oEKegPtMJ4iNAYpump
+2025-01-25 21:50:25,970 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/8cxU6pFmXb7zHw1Xbf8N3w9mv1oEKegPtMJ4iNAYpump:
+2025-01-25 21:50:35,979 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmfAqoYD13mccWqRhTDq6wD8Fs6ZrjKU4xiwCFsbhj4qxU:
+2025-01-25 21:50:35,979 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:50:35,979 - root - ERROR - 
+
+2025-01-25 21:50:35,979 - root - ERROR - Begin to get {'signature': '5yQCci2E5dE231rtpq6PhbrfkRgMTrLXgVytZnJZyPY9eSvJqLqKzDAZmDqJtzafFJWhxtKiDjgcUGCiWgMMZU6Q', 'mint': 'Fvh6A7VeH1cWzvanoVQNuGgUgWm14ZcGqLrSxYfXpump', 'traderPublicKey': 'BviUdpK5rGm77cPeZorKTYoasU1vxraMwhVQbi78eEP6', 'txType': 'create', 'initialBuy': 3576.654744, 'solAmount': 0.0001, 'bondingCurveKey': 'D94ckSRujBM1ZrEymoGDpPTstDKErFf9G8GJnuFkyPCs', 'vTokensInBondingCurve': 1072996423.345256, 'vSolInBondingCurve': 30.000099999999986, 'marketCapSol': 27.959179869835328, 'name': 'fall bull', 'symbol': 'FALLBOLL', 'uri': 'https://ipfs.io/ipfs/QmNMuqLZhUN5kmS4UK5yPM89UfXNRYg7iMdZe77KjYJS6s', 'pool': 'pump'}
+2025-01-25 21:50:35,979 - root - ERROR - Begin to extract_coin_detail_from_message Fvh6A7VeH1cWzvanoVQNuGgUgWm14ZcGqLrSxYfXpump
+2025-01-25 21:50:46,970 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/Fvh6A7VeH1cWzvanoVQNuGgUgWm14ZcGqLrSxYfXpump:
+2025-01-25 21:50:56,974 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmNMuqLZhUN5kmS4UK5yPM89UfXNRYg7iMdZe77KjYJS6s:
+2025-01-25 21:50:56,974 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:50:56,975 - root - ERROR - 
+
+2025-01-25 21:50:56,975 - root - ERROR - Begin to get {'signature': '4yg9cMvFpCtQPLv7e7cr4B1qfQ5paPm757sgkogKnqvdagdEf12wFjPDxaKQzjVbdz5ZSZ2CnWWk6PBTpv84gY29', 'mint': 'HByt32Y7YL7ZdFWk9EmM7aEM477Q5Si7wc8jg8cLpump', 'traderPublicKey': '3NuTM5fNq1YctB7zK3o6Xgmb5kD8LCFnBmyBAHTxvY3j', 'txType': 'create', 'initialBuy': 17590163.934426, 'solAmount': 0.5, 'bondingCurveKey': '9Q8nae93jE2MoNJrhHjNck5vKBg3u8cdEtQ9ZRmnhoFr', 'vTokensInBondingCurve': 1055409836.065574, 'vSolInBondingCurve': 30.499999999999993, 'marketCapSol': 28.8987263125194, 'name': 'Official Barron Meme ', 'symbol': 'BARRON', 'uri': 'https://ipfs.io/ipfs/QmW1KATXhHV6gYYH7a9LhNgtPfcgGA3ycjwr1yMQRJFMv4', 'pool': 'pump'}
+2025-01-25 21:50:56,975 - root - ERROR - Begin to extract_coin_detail_from_message HByt32Y7YL7ZdFWk9EmM7aEM477Q5Si7wc8jg8cLpump
+2025-01-25 21:51:07,978 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/HByt32Y7YL7ZdFWk9EmM7aEM477Q5Si7wc8jg8cLpump:
+2025-01-25 21:51:18,976 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmW1KATXhHV6gYYH7a9LhNgtPfcgGA3ycjwr1yMQRJFMv4:
+2025-01-25 21:51:18,977 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:51:18,977 - root - ERROR - 
+
+2025-01-25 21:51:18,977 - root - ERROR - Begin to get {'signature': 'CrA8Y9RFy5TiWhR9aGaqaHqFWXBCwNDX2YPLKfLjAY9KeqUXCRc2dV7j6gcMTtkNyfQxwpvQHtYmzYQsVwZ4syL', 'mint': 'HQL4fULVy3eAdYNiiJg776pM5T4Mm6TLRhhj7LmUpump', 'traderPublicKey': '7JebNX1zCAPBH3Pvubd8huNhyMUkpdZgJTMMH2bTFPgm', 'txType': 'create', 'initialBuy': 67062499.999999, 'solAmount': 2, 'bondingCurveKey': '25UTXGh4irwGJenPcM242PLYeKZLuggpZYtQetvoJkSC', 'vTokensInBondingCurve': 1005937500.000001, 'vSolInBondingCurve': 31.999999999999968, 'marketCapSol': 31.811121466293816, 'name': 'I identify as', 'symbol': 'FART/ER', 'uri': 'https://ipfs.io/ipfs/Qmbq7sJqj8zumFEF1t5ujwXKSbZ12EG8EUQAm2tQELKoyF', 'pool': 'pump'}
+2025-01-25 21:51:18,977 - root - ERROR - Begin to extract_coin_detail_from_message HQL4fULVy3eAdYNiiJg776pM5T4Mm6TLRhhj7LmUpump
+2025-01-25 21:51:29,969 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/HQL4fULVy3eAdYNiiJg776pM5T4Mm6TLRhhj7LmUpump:
+2025-01-25 21:51:39,982 - root - ERROR - Error fetching https://ipfs.io/ipfs/Qmbq7sJqj8zumFEF1t5ujwXKSbZ12EG8EUQAm2tQELKoyF:
+2025-01-25 21:51:39,982 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:51:39,982 - root - ERROR - 
+
+2025-01-25 21:51:39,983 - root - ERROR - Begin to get {'signature': '4TD1HqBAsFwV1yGSgaE2TjjRiumfuB4cFsvRUd7NNv9GFVHXZiSkj6os9Y3mV6La5XzoDzFvRePMMz2ExmffGJMY', 'mint': 'Cn5WKDqSRyMZMCxPfRSWy8XcMpkHDxXtaAqEb1r7pump', 'traderPublicKey': 'GGT4ok39uwp9NJdjNsGxvcp1yBYQF8ikn9b5LuC2t4nE', 'txType': 'create', 'initialBuy': 41269230.76923, 'solAmount': 1.2, 'bondingCurveKey': '9QHUVofNEiK55Miyz2P8LgoMTy2RETFRwzfZDQZ3oD6f', 'vTokensInBondingCurve': 1031730769.23077, 'vSolInBondingCurve': 31.199999999999978, 'marketCapSol': 30.240447343895575, 'name': 'Marcell', 'symbol': 'marcel', 'uri': 'https://ipfs.io/ipfs/QmaKPNA42qL4f5z5LQJRSFEdYmb5xtzFBSF9oAPXt7hYL4', 'pool': 'pump'}
+2025-01-25 21:51:39,983 - root - ERROR - Begin to extract_coin_detail_from_message Cn5WKDqSRyMZMCxPfRSWy8XcMpkHDxXtaAqEb1r7pump
+2025-01-25 21:51:50,979 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/Cn5WKDqSRyMZMCxPfRSWy8XcMpkHDxXtaAqEb1r7pump:
+2025-01-25 21:52:01,975 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmaKPNA42qL4f5z5LQJRSFEdYmb5xtzFBSF9oAPXt7hYL4:
+2025-01-25 21:52:01,976 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:52:01,976 - root - ERROR - 
+
+2025-01-25 21:52:01,976 - root - ERROR - Begin to get {'signature': '3qDVCSrgibTbBx32zs6KuwnenzjSYtKbcZnquLgLSeDdrcrmyqsRfEZWVEsr16Ak31fQBgCEdhBTFLcSbz4mJVM4', 'mint': 'EMyjVzMg9pxRWpNHsoQcm8QFjP8QKyu7ECLYRCvypump', 'traderPublicKey': '3fhLfgCLiADAdjvN5mqU8HCT6Vpd7xLAuquYMDm8NN5A', 'txType': 'create', 'initialBuy': 34612903.225806, 'solAmount': 1, 'bondingCurveKey': '8Tj2aZ7ySsYWix7RYJpBhzQDHgXde9GYRTzDNhyoYZan', 'vTokensInBondingCurve': 1038387096.774194, 'vSolInBondingCurve': 30.999999999999986, 'marketCapSol': 29.853991922957412, 'name': 'Nut, Sleep, Fart, Win', 'symbol': 'NSFW', 'uri': 'https://ipfs.io/ipfs/QmcBp4beWdSJmSbUVN4Z9Aik1vs4Eo5kK86GgvibhsKPvv', 'pool': 'pump'}
+2025-01-25 21:52:01,976 - root - ERROR - Begin to extract_coin_detail_from_message EMyjVzMg9pxRWpNHsoQcm8QFjP8QKyu7ECLYRCvypump
+2025-01-25 21:52:12,984 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/EMyjVzMg9pxRWpNHsoQcm8QFjP8QKyu7ECLYRCvypump:
+2025-01-25 21:52:23,973 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmcBp4beWdSJmSbUVN4Z9Aik1vs4Eo5kK86GgvibhsKPvv:
+2025-01-25 21:52:23,973 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:52:23,974 - root - ERROR - 
+
+2025-01-25 21:52:23,974 - root - ERROR - 'NoneType' object has no attribute 'resume_reading'
+Traceback (most recent call last):
+  File "D:\www\pcoin\get_new_coins.py", line 132, in <module>
+    asyncio.get_event_loop().run_until_complete(subscribe())  # 尝试运行函数
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "D:\www\pcoin\get_new_coins.py", line 29, in subscribe
+    async for message in websocket:
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\connection.py", line 242, in __aiter__
+    yield await self.recv()
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\connection.py", line 294, in recv
+    return await self.recv_messages.get(decode)
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\messages.py", line 151, in get
+    self.maybe_resume()
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\messages.py", line 280, in maybe_resume
+    self.resume()
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\asyncio\sslproto.py", line 343, in resume_reading
+    self._ssl_protocol._transport.resume_reading()
+AttributeError: 'NoneType' object has no attribute 'resume_reading'
+2025-01-25 21:52:36,485 - root - ERROR - Begin to get {'message': 'Successfully subscribed to token creation events.'}
+2025-01-25 21:52:36,485 - root - ERROR - 
+
+2025-01-25 21:52:36,618 - root - ERROR - Begin to get {'signature': '3vMjxLdALsi7CCVvtQ9hX6riFaWdQfWYuWQXqhZwqF8vWeKASYgrrC9zriCXf1xBUtn7ncWwombjFX423vwbtkJ8', 'mint': 'EtqD5r6oQHa6ZVE6doYhMtMdnjG6tpkW1w6co5pxpump', 'traderPublicKey': 'E1sZXedR8DNZc5WVuJAAdnVz7AxvbaAHTZUmpBwGCksa', 'txType': 'create', 'initialBuy': 100000.359733, 'solAmount': 0.00279617, 'bondingCurveKey': 'FPRy7ZZcxE3Big9jqRsGGAPVeXAk5EpdfF1TL99ugFd4', 'vTokensInBondingCurve': 1072899999.640267, 'vSolInBondingCurve': 30.002796169999996, 'marketCapSol': 27.96420559237547, 'name': 'TWEETY', 'symbol': 'TWTY', 'uri': 'https://ipfs.io/ipfs/QmXcgkcZ6bZuAu657L15gQQMsoKh78pEkwANyNys8UGazD', 'pool': 'pump'}
+2025-01-25 21:52:36,618 - root - ERROR - Begin to extract_coin_detail_from_message EtqD5r6oQHa6ZVE6doYhMtMdnjG6tpkW1w6co5pxpump
+2025-01-25 21:52:46,984 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/EtqD5r6oQHa6ZVE6doYhMtMdnjG6tpkW1w6co5pxpump:
+2025-01-25 21:52:57,974 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmXcgkcZ6bZuAu657L15gQQMsoKh78pEkwANyNys8UGazD:
+2025-01-25 21:52:57,974 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:52:57,975 - root - ERROR - 
+
+2025-01-25 21:52:57,975 - root - ERROR - Begin to get {'signature': '5QYHVagDTbAdwxFySrM3iFYxozQCbqBWeZGFU8rrPuw2yaQixqRSgPveyLMhTt3kaCWewKYGSNodPNK2Ps3i9UHA', 'mint': '4csHtKiJFRzQJ4wGjNzKCRp3bLvpvGD6DEzbFH5Mpump', 'traderPublicKey': '2RyoEmS74fMNN5mi8ioKFj5Ns5pJx5hz9N8RzwV1698r', 'txType': 'create', 'initialBuy': 3564784.053156, 'solAmount': 0.1, 'bondingCurveKey': 'BRuAmt8YBeeM3Z9wHoVbfr9Zo5EEMJm6Nsywa1JcRnBL', 'vTokensInBondingCurve': 1069435215.946844, 'vSolInBondingCurve': 30.099999999999998, 'marketCapSol': 28.145697421559486, 'name': 'Kim Jong Un', 'symbol': 'MR.KIM', 'uri': 'https://ipfs.io/ipfs/Qmcshv2GiCx8rBm9jPVZZ1Twvhoyd18ngDxKmoHMMAaGW6', 'pool': 'pump'}
+2025-01-25 21:52:57,975 - root - ERROR - Begin to extract_coin_detail_from_message 4csHtKiJFRzQJ4wGjNzKCRp3bLvpvGD6DEzbFH5Mpump
+2025-01-25 21:53:08,963 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/4csHtKiJFRzQJ4wGjNzKCRp3bLvpvGD6DEzbFH5Mpump:
+2025-01-25 21:53:18,973 - root - ERROR - Error fetching https://ipfs.io/ipfs/Qmcshv2GiCx8rBm9jPVZZ1Twvhoyd18ngDxKmoHMMAaGW6:
+2025-01-25 21:53:18,974 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:53:18,974 - root - ERROR - 
+
+2025-01-25 21:53:18,974 - root - ERROR - Begin to get {'signature': '48p5EsU7JKhE7jZrJUaBqmU6re4Rscyk4pE3dn3FDrYrEVk5ZBRx3cn4hddTHUbnEjRrJXtV5vEULn8Kroe2GG7', 'mint': 'HAZC1ynsCwDHKcMSvyYXzujYZETewmxzyjfWwnn3pump', 'traderPublicKey': '386jfjwsoa5pQLxbLNaCiu1LBY7QNQJqTcYeTz7jSVfP', 'txType': 'create', 'initialBuy': 51095238.095238, 'solAmount': 1.5, 'bondingCurveKey': 'A5Q73t7F4vm5SSMrPraS4d8LUUN7AFrgtZX9GvdFeZ8t', 'vTokensInBondingCurve': 1021904761.904762, 'vSolInBondingCurve': 31.499999999999996, 'marketCapSol': 30.82479030754892, 'name': 'WhatsApp Coin', 'symbol': 'WHATSAPP', 'uri': 'https://ipfs.io/ipfs/QmfYVSGgckoGWssV3ih4nb74LmHvf6QhCvnFxGv21ReUkQ', 'pool': 'pump'}
+2025-01-25 21:53:18,974 - root - ERROR - Begin to extract_coin_detail_from_message HAZC1ynsCwDHKcMSvyYXzujYZETewmxzyjfWwnn3pump
+2025-01-25 21:53:28,970 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/HAZC1ynsCwDHKcMSvyYXzujYZETewmxzyjfWwnn3pump:
+2025-01-25 21:53:38,979 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmfYVSGgckoGWssV3ih4nb74LmHvf6QhCvnFxGv21ReUkQ:
+2025-01-25 21:53:38,979 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:53:38,979 - root - ERROR - 
+
+2025-01-25 21:53:38,979 - root - ERROR - Begin to get {'signature': '5UthrNKLCujTYRKQXRXFFMgWAQS78Etmn9T3y92WWePY9ck3RsPiL6QCgUfr1NGpZRYRFZV96fxrTYCETv9wvLws', 'mint': 'FzkP3nLgf3p5CuLzwy7BGq8PunFpafxA6RCwuzjgpump', 'traderPublicKey': '7uWzyGTtNpfLVtFUrp7VSMpFCTtzDRjtdtekmTpFDpGs', 'txType': 'create', 'initialBuy': 41269230.76923, 'solAmount': 1.2, 'bondingCurveKey': '4BpdFJ5hkjXcCGiBEQJ5FwPFVNwXaojCCDsTMbnwabXj', 'vTokensInBondingCurve': 1031730769.23077, 'vSolInBondingCurve': 31.199999999999978, 'marketCapSol': 30.240447343895575, 'name': 'FARTING SOLANA', 'symbol': 'FARTLANA', 'uri': 'https://ipfs.io/ipfs/Qmct2faRxb4NNj4QzmruoFcTh6Cm6Tm9H5GtuXHhRNf7KY', 'pool': 'pump'}
+2025-01-25 21:53:38,980 - root - ERROR - Begin to extract_coin_detail_from_message FzkP3nLgf3p5CuLzwy7BGq8PunFpafxA6RCwuzjgpump
+2025-01-25 21:53:49,985 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/FzkP3nLgf3p5CuLzwy7BGq8PunFpafxA6RCwuzjgpump:
+2025-01-25 21:54:00,972 - root - ERROR - Error fetching https://ipfs.io/ipfs/Qmct2faRxb4NNj4QzmruoFcTh6Cm6Tm9H5GtuXHhRNf7KY:
+2025-01-25 21:54:00,973 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:54:00,973 - root - ERROR - 
+
+2025-01-25 21:54:00,973 - root - ERROR - Begin to get {'signature': '2vByEPgZdCS3HbKKtJJdia9X23mhDdEVRatNXxTUsLyRYs3P6EZShykvVMQuFZwxVZXEeLbka5J8RyWTKEuiCXk6', 'mint': 'Boq5gL1p2kpGDHYVZCXD4JcL8JfULviv5Ysh5Saepump', 'traderPublicKey': 'D5Tzg5V7U2AKoeYvJZgXK6R1YAQgVN9R9Cb7wxaQWiX3', 'txType': 'create', 'initialBuy': 357547.484171, 'solAmount': 0.01, 'bondingCurveKey': 'AWYq2BfjAFMi4SR67q4QoxmUPChMyDMcD6YnbQPLgWoj', 'vTokensInBondingCurve': 1072642452.515829, 'vSolInBondingCurve': 30.009999999999973, 'marketCapSol': 27.977635911773792, 'name': 'FART GIRL', 'symbol': 'FARTY', 'uri': 'https://ipfs.io/ipfs/Qma1AXcJiPhgKyWP8i46qS6mKkCU5JUyVfropokDCaSMV9', 'pool': 'pump'}
+2025-01-25 21:54:00,973 - root - ERROR - Begin to extract_coin_detail_from_message Boq5gL1p2kpGDHYVZCXD4JcL8JfULviv5Ysh5Saepump
+2025-01-25 21:54:10,984 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/Boq5gL1p2kpGDHYVZCXD4JcL8JfULviv5Ysh5Saepump:
+2025-01-25 21:54:21,979 - root - ERROR - Error fetching https://ipfs.io/ipfs/Qma1AXcJiPhgKyWP8i46qS6mKkCU5JUyVfropokDCaSMV9:
+2025-01-25 21:54:21,979 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:54:21,979 - root - ERROR - 
+
+2025-01-25 21:54:21,979 - root - ERROR - Begin to get {'signature': '3xfuC5q7HdpjfF7ZdMVVmUgfswBjJhCnApJv4VwwDpDKurfxdNQ5NhE2tcSh8GEwBKnkXBue3q3VXm3kuLBn2zgp', 'mint': '4htU9sx3QNoDyhVseN1GnRZ62DNcjUimByXkhJF8pump', 'traderPublicKey': 'EhEPbn1rgBoDJah7AjimZb28TLJWxxsEwvLsuXTBVU9N', 'txType': 'create', 'initialBuy': 153285714.285714, 'solAmount': 5, 'bondingCurveKey': '9mkmWxNrdVEKWVVKGX3GhoNQpLVrTmtY6bMgoqqJLPQf', 'vTokensInBondingCurve': 919714285.714286, 'vSolInBondingCurve': 34.99999999999999, 'marketCapSol': 38.05529667598631, 'name': 'Elons Space Car', 'symbol': 'ESC', 'uri': 'https://ipfs.io/ipfs/QmVxXyKX5v4sQFYy3btbUzwTbU13hXXbxtYLbGxR2gUJQa', 'pool': 'pump'}
+2025-01-25 21:54:21,979 - root - ERROR - Begin to extract_coin_detail_from_message 4htU9sx3QNoDyhVseN1GnRZ62DNcjUimByXkhJF8pump
+2025-01-25 21:54:32,968 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/4htU9sx3QNoDyhVseN1GnRZ62DNcjUimByXkhJF8pump:
+2025-01-25 21:54:42,974 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmVxXyKX5v4sQFYy3btbUzwTbU13hXXbxtYLbGxR2gUJQa:
+2025-01-25 21:54:42,975 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:54:42,975 - root - ERROR - 
+
+2025-01-25 21:54:42,975 - root - ERROR - Begin to get {'signature': '22Sqxs6CharbFW5MfcsDAoc21LNvgUUS7DM3ssdQeZeP9sHrcgQddYPWZ3w9TLSYmNNUwtC2SVoQiKK3ZaPCH2WY', 'mint': 'EkPCmEdZydk4kJ8SWATiFZ2f2KDYDbZp2nRrpfFfpump', 'traderPublicKey': '99q4g7RHKh1eD2w95HFSQdakYC6RqmAqEyzptCLN74E4', 'txType': 'create', 'initialBuy': 67062499.999999, 'solAmount': 2, 'bondingCurveKey': '2EV5R6kNVmMYmMwvjJzmnp5N9XwQV4QkTp4qonCyLaAB', 'vTokensInBondingCurve': 1005937500.000001, 'vSolInBondingCurve': 31.999999999999968, 'marketCapSol': 31.811121466293816, 'name': 'National Fart Day', 'symbol': 'FEB05', 'uri': 'https://ipfs.io/ipfs/Qmboxbw1dDNRZ15Qm64y9RTKhYLSBY9dVdN1a5CC8TbPMd', 'pool': 'pump'}
+2025-01-25 21:54:42,975 - root - ERROR - Begin to extract_coin_detail_from_message EkPCmEdZydk4kJ8SWATiFZ2f2KDYDbZp2nRrpfFfpump
+2025-01-25 21:54:53,983 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/EkPCmEdZydk4kJ8SWATiFZ2f2KDYDbZp2nRrpfFfpump:
+2025-01-25 21:55:04,967 - root - ERROR - Error fetching https://ipfs.io/ipfs/Qmboxbw1dDNRZ15Qm64y9RTKhYLSBY9dVdN1a5CC8TbPMd:
+2025-01-25 21:55:04,967 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:55:04,967 - root - ERROR - 
+
+2025-01-25 21:55:04,967 - root - ERROR - Begin to get {'signature': '5rh8u4avkHuD8fS5C1LX66QvWaKs4hVYgbF7vNhCnZGV7KZZaHjxCoXVRvu2PR4Vj7wmK1xAsCPfZZiRe8BPEj23', 'mint': 'H5AMwtonzfJ9tXKMWSMDoFHSCiDJjoCUEFnK81AXpump', 'traderPublicKey': 'D8ToZsjtDr7sXt5of4rB1iJFX32kZae69QjiY75oJHK2', 'txType': 'create', 'initialBuy': 1428761.651131, 'solAmount': 0.04, 'bondingCurveKey': 'Hd6TSLfsxMJDZNMBXC2461wXe2vssKEVswQQn2dsCXZk', 'vTokensInBondingCurve': 1071571238.348869, 'vSolInBondingCurve': 30.039999999999978, 'marketCapSol': 28.03360049704873, 'name': 'Death', 'symbol': 'DTH', 'uri': 'https://ipfs.io/ipfs/QmPQDZ7Mq3nDifX4ui7Y8RKZCe1cWBeFS2ropXJ24Pb4WK', 'pool': 'pump'}
+2025-01-25 21:55:04,967 - root - ERROR - Begin to extract_coin_detail_from_message H5AMwtonzfJ9tXKMWSMDoFHSCiDJjoCUEFnK81AXpump
+2025-01-25 21:55:14,962 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/H5AMwtonzfJ9tXKMWSMDoFHSCiDJjoCUEFnK81AXpump:
+2025-01-25 21:55:24,984 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmPQDZ7Mq3nDifX4ui7Y8RKZCe1cWBeFS2ropXJ24Pb4WK:
+2025-01-25 21:55:24,985 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:55:24,985 - root - ERROR - 
+
+2025-01-25 21:55:24,985 - root - ERROR - Begin to get {'signature': '2sBbBC2R178u2QDLfHzgVJ1zTh8sgCro7X5N3J6DTr1yeA6bFU4cKN6G1CHNFPCBoPtfRJ4CEpgSdr1DqGLZS5kj', 'mint': '6NPNYKkDcyAj3NSodx1Bamk4Rb9Np6esnXSCjbNmpump', 'traderPublicKey': 'Bnd61LBt9L9piMwGp2soHujzv1U4Bm5oTBq5RVkKaMYr', 'txType': 'create', 'initialBuy': 27870129.870129, 'solAmount': 0.8, 'bondingCurveKey': 'Ho1PjVXv2BDpGGjzfGrgTMJHpQ6u9vyk7RgHKKLzfxRq', 'vTokensInBondingCurve': 1045129870.129871, 'vSolInBondingCurve': 30.799999999999972, 'marketCapSol': 29.470021745883763, 'name': 'gogogo', 'symbol': 'gogogo', 'uri': 'https://ipfs.io/ipfs/QmUZfaBD7X3zgFdeord5g5TFd78RPUB9tgeTCCrcZ7UAKU', 'pool': 'pump'}
+2025-01-25 21:55:24,985 - root - ERROR - Begin to extract_coin_detail_from_message 6NPNYKkDcyAj3NSodx1Bamk4Rb9Np6esnXSCjbNmpump
+2025-01-25 21:55:35,966 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/6NPNYKkDcyAj3NSodx1Bamk4Rb9Np6esnXSCjbNmpump:
+2025-01-25 21:55:45,977 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmUZfaBD7X3zgFdeord5g5TFd78RPUB9tgeTCCrcZ7UAKU:
+2025-01-25 21:55:45,978 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:55:45,978 - root - ERROR - 
+
+2025-01-25 21:55:45,978 - root - ERROR - Begin to get {'signature': '44tFEkon2nTTAUufK1so6PkMJjxuCW4dezHT7nDvDZUdsiFCcGPKHtTH5yxyPu6LrJf4ULJbCuoX4hsQNPHEApAi', 'mint': 'GXBEmj4pihP1etdQ6wS95UViKSTfZLrdbYaxFmU2pump', 'traderPublicKey': 'G5xM483eSd9bV7eUcc8sBFpWEQk8RhWkFTeYvkJiKy39', 'txType': 'create', 'initialBuy': 82538461.385349, 'solAmount': 2.499999995, 'bondingCurveKey': '2CX3ZmCF1iZzmrpDAViRa7t58iHgNvxwM1f7WS1BuhDp', 'vTokensInBondingCurve': 990461538.614651, 'vSolInBondingCurve': 32.49999999497592, 'marketCapSol': 32.81298538904737, 'name': 'ELONS CAR', 'symbol': 'ROADSTER', 'uri': 'https://ipfs.io/ipfs/QmTR33C5ZmRGvuDvgsk4hgeyRdmGv6EYnsBT3Km7FUgE2V', 'pool': 'pump'}
+2025-01-25 21:55:45,978 - root - ERROR - Begin to extract_coin_detail_from_message GXBEmj4pihP1etdQ6wS95UViKSTfZLrdbYaxFmU2pump
+2025-01-25 21:55:56,996 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/GXBEmj4pihP1etdQ6wS95UViKSTfZLrdbYaxFmU2pump:
+2025-01-25 21:56:07,981 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmTR33C5ZmRGvuDvgsk4hgeyRdmGv6EYnsBT3Km7FUgE2V:
+2025-01-25 21:56:07,981 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:56:07,981 - root - ERROR - 
+
+2025-01-25 21:56:07,981 - root - ERROR - Begin to get {'signature': '2a5A6b78TZ3jDeNooBNojYUdwBeg87WQjiqkLysP9GDnFybut1Ljxzo6couCn6qwCd9YreXFrV5pGsXr5GU85HAF', 'mint': 'EqdkBYLXnRFqgFykrSyR7BEqw7aXwhZ9G5jnVCJLpump', 'traderPublicKey': '55kko9TGJb9YPsHSSE95UMjC2E5rqh77ngGkFNDELz16', 'txType': 'create', 'initialBuy': 63909090.90909, 'solAmount': 1.9, 'bondingCurveKey': 'EwRcEaskdG3t8oMS7y1S4CiFcMZoNTgQcHBAaGMGnSHf', 'vTokensInBondingCurve': 1009090909.09091, 'vSolInBondingCurve': 31.899999999999974, 'marketCapSol': 31.61261261261256, 'name': 'Pixie Fart Dust', 'symbol': '$PFD', 'uri': 'https://ipfs.io/ipfs/QmZ4sy7P7pZ5m9V6L4wgMBLN8YXVuy2ym5DZKUfarRMmfh', 'pool': 'pump'}
+2025-01-25 21:56:07,981 - root - ERROR - Begin to extract_coin_detail_from_message EqdkBYLXnRFqgFykrSyR7BEqw7aXwhZ9G5jnVCJLpump
+2025-01-25 21:56:18,977 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/EqdkBYLXnRFqgFykrSyR7BEqw7aXwhZ9G5jnVCJLpump:
+2025-01-25 21:56:19,570 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmZ4sy7P7pZ5m9V6L4wgMBLN8YXVuy2ym5DZKUfarRMmfh:Cannot connect to host ipfs.io:443 ssl:default [指定的网络名不再可用。]
+2025-01-25 21:56:19,570 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:56:19,570 - root - ERROR - 
+
+2025-01-25 21:56:19,571 - root - ERROR - Begin to get {'signature': '3x7dSjJKbqs84W2SR119Hfz4a5K2CmLRtyQzpg6AiBSKUcchqDJySehdhyg3SY8LG5spReUM9SubnWxnBDUXwRVX', 'mint': '5wjRgc1q3SN6PYDBWaKTha7P1nQR2mzuaZRVK8u4pump', 'traderPublicKey': 'HW8ETMtC2dHYWrL5KT3CzdUn8aXPGUuRuJKfk5PdCoaZ', 'txType': 'create', 'initialBuy': 24465798.045602, 'solAmount': 0.7, 'bondingCurveKey': '5jb5cmjiqKMwybcGKeKg63gp4ydkqk5Ct2sKP9JyhGjM', 'vTokensInBondingCurve': 1048534201.954398, 'vSolInBondingCurve': 30.69999999999998, 'marketCapSol': 29.278968623796175, 'name': 'FARTTOK', 'symbol': 'FARTTOK', 'uri': 'https://ipfs.io/ipfs/QmPQVKL1FW3kiYW7AbGQBa8cX18qEYhaz6BMNtTf9ewMmB', 'pool': 'pump'}
+2025-01-25 21:56:19,571 - root - ERROR - Begin to extract_coin_detail_from_message 5wjRgc1q3SN6PYDBWaKTha7P1nQR2mzuaZRVK8u4pump
+2025-01-25 21:56:29,963 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/5wjRgc1q3SN6PYDBWaKTha7P1nQR2mzuaZRVK8u4pump:
+2025-01-25 21:56:39,972 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmPQVKL1FW3kiYW7AbGQBa8cX18qEYhaz6BMNtTf9ewMmB:
+2025-01-25 21:56:39,973 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:56:39,973 - root - ERROR - 
+
+2025-01-25 21:56:39,973 - root - ERROR - Begin to get {'signature': '5fju87ymSu4xUujhQifd5CPJQ9kQvAvE64qnrZ3zy9wuPU4pTyLNw9NuSVhh8CkbjUPzyCxhaCoZjWwnMLfGW8cZ', 'mint': 'HaWjqo9GaFGmp3x8jExmhiQYLePGfkq9QkUDm3Zepump', 'traderPublicKey': '51gB5xdNYmpMa3Kssu36F5GryA75q3nZRcHQovwio6Ch', 'txType': 'create', 'initialBuy': 97545454.545454, 'solAmount': 3, 'bondingCurveKey': 'DGMcJgpuZ3Wivr3Ea1ZaR344EpANHcRza8cGebcgU3TP', 'vTokensInBondingCurve': 975454545.454546, 'vSolInBondingCurve': 32.999999999999986, 'marketCapSol': 33.830382106244144, 'name': 'ELON MUSKS ROADSTER NAME', 'symbol': 'STARMAN', 'uri': 'https://ipfs.io/ipfs/QmNX4VoDirn24yxqC4K3JHos8wotwMSdSRePQdwxfAhmif', 'pool': 'pump'}
+2025-01-25 21:56:39,973 - root - ERROR - Begin to extract_coin_detail_from_message HaWjqo9GaFGmp3x8jExmhiQYLePGfkq9QkUDm3Zepump
+2025-01-25 21:56:49,982 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/HaWjqo9GaFGmp3x8jExmhiQYLePGfkq9QkUDm3Zepump:
+2025-01-25 21:57:00,984 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmNX4VoDirn24yxqC4K3JHos8wotwMSdSRePQdwxfAhmif:
+2025-01-25 21:57:00,984 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:57:00,984 - root - ERROR - 
+
+2025-01-25 21:57:00,984 - root - ERROR - Begin to get {'signature': '5AScw3xS61fU5vqXkqL1384EppvEH1yMnxK3zDMg2ySBndhBMW4xDKd15SQ4LJesiFrA8N8m73BS7CUDzZ9QqW3P', 'mint': 'FBu3LkkS5xL9pxjVTSMFw2QDUrTZMcuehxURJk67pump', 'traderPublicKey': 'DNLg87LysztQZtXmMTdJrs8MTKui4yZeG9WvsbD4Rqyz', 'txType': 'create', 'initialBuy': 1071928.071928, 'solAmount': 0.03, 'bondingCurveKey': '8B9sNoPYqFo5n6snKrQzp2ivM1aQpAegSvUJGq3Rv7XC', 'vTokensInBondingCurve': 1071928071.928072, 'vSolInBondingCurve': 30.029999999999998, 'marketCapSol': 28.0149394221808, 'name': 'Temple run official ', 'symbol': 'Temple', 'uri': 'https://ipfs.io/ipfs/QmWbgE3csWDDLj8Hv7ATQjoTcPLnb4w8ybydrWqGagrHf5', 'pool': 'pump'}
+2025-01-25 21:57:00,984 - root - ERROR - Begin to extract_coin_detail_from_message FBu3LkkS5xL9pxjVTSMFw2QDUrTZMcuehxURJk67pump
+2025-01-25 21:57:11,973 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/FBu3LkkS5xL9pxjVTSMFw2QDUrTZMcuehxURJk67pump:
+2025-01-25 21:57:21,970 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmWbgE3csWDDLj8Hv7ATQjoTcPLnb4w8ybydrWqGagrHf5:
+2025-01-25 21:57:21,971 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:57:21,971 - root - ERROR - 
+
+2025-01-25 21:57:21,972 - root - ERROR - 'NoneType' object has no attribute 'resume_reading'
+Traceback (most recent call last):
+  File "D:\www\pcoin\get_new_coins.py", line 132, in <module>
+    asyncio.get_event_loop().run_until_complete(subscribe())  # 尝试运行函数
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "D:\www\pcoin\get_new_coins.py", line 29, in subscribe
+    async for message in websocket:
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\connection.py", line 242, in __aiter__
+    yield await self.recv()
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\connection.py", line 294, in recv
+    return await self.recv_messages.get(decode)
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\messages.py", line 151, in get
+    self.maybe_resume()
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\messages.py", line 280, in maybe_resume
+    self.resume()
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\asyncio\sslproto.py", line 343, in resume_reading
+    self._ssl_protocol._transport.resume_reading()
+AttributeError: 'NoneType' object has no attribute 'resume_reading'
+2025-01-25 21:57:33,295 - root - ERROR - Begin to get {'message': 'Successfully subscribed to token creation events.'}
+2025-01-25 21:57:33,295 - root - ERROR - 
+
+2025-01-25 21:57:34,624 - root - ERROR - Begin to get {'signature': '5xzEzvtJkTYFjznuzFYvnFAiAdKhniwSkGuZ1R9yLQPCeizNrBM4YYP94W9Mm1qrbMu4hLpoJ2JSyNDoddboEPbU', 'mint': 'DA8YYyLVq9FaBGSK4gpZCEXMoPnpH8Gxih1V9BR9pump', 'traderPublicKey': 'BLwJz8fqjrTYs3Z5B3d3yGixFtroKs8W2bBoYRJNJiMx', 'txType': 'create', 'initialBuy': 107289.271072, 'solAmount': 0.003, 'bondingCurveKey': '9QNTx42nBkiMhhTDZSzVgseJcMa62SP25S6bhxCdw2Mk', 'vTokensInBondingCurve': 1072892710.728928, 'vSolInBondingCurve': 30.002999999999975, 'marketCapSol': 27.964585554519992, 'name': 'Yoda', 'symbol': 'YDA', 'uri': 'https://ipfs.io/ipfs/QmZBgdaMNKysWiAFpxJwJHMi7nN1SfzG2HehW5p1pmP4wN', 'pool': 'pump'}
+2025-01-25 21:57:34,624 - root - ERROR - Begin to extract_coin_detail_from_message DA8YYyLVq9FaBGSK4gpZCEXMoPnpH8Gxih1V9BR9pump
+2025-01-25 21:57:44,986 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/DA8YYyLVq9FaBGSK4gpZCEXMoPnpH8Gxih1V9BR9pump:
+2025-01-25 21:57:55,964 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmZBgdaMNKysWiAFpxJwJHMi7nN1SfzG2HehW5p1pmP4wN:
+2025-01-25 21:57:55,964 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:57:55,964 - root - ERROR - 
+
+2025-01-25 21:57:55,964 - root - ERROR - Begin to get {'signature': '433ixqFCZGWfa7fiqXTvRQ3oQqcs8qkjptc1cm8jVDbxfKhcmpgRkaCEY2wPr8iJ8Jc7GsvGL9ZqAMmRqZpvpeDP', 'mint': '2BrEnT7AxTtQk5jSCPqbM4SoHFmDTPLTnmpDXFGnpump', 'traderPublicKey': 'CdpXqvUiFap8eybj9S61VZnNhagRnsQRHiqZoVxpexBz', 'txType': 'create', 'initialBuy': 47840764.33121, 'solAmount': 1.4, 'bondingCurveKey': '3gJmTc56z4neGuAysYFrMhfP6dyCWyQ5787isJkVNLY3', 'vTokensInBondingCurve': 1025159235.66879, 'vSolInBondingCurve': 31.399999999999995, 'marketCapSol': 30.629388008698342, 'name': 'Elon Musket', 'symbol': 'MUSKET', 'uri': 'https://ipfs.io/ipfs/QmXXzoeQDFAtNFi2rGCLV467enH8jP3XDN82QkS7jdNyCK', 'pool': 'pump'}
+2025-01-25 21:57:55,965 - root - ERROR - Begin to extract_coin_detail_from_message 2BrEnT7AxTtQk5jSCPqbM4SoHFmDTPLTnmpDXFGnpump
+2025-01-25 21:58:05,973 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/2BrEnT7AxTtQk5jSCPqbM4SoHFmDTPLTnmpDXFGnpump:
+2025-01-25 21:58:15,966 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmXXzoeQDFAtNFi2rGCLV467enH8jP3XDN82QkS7jdNyCK:
+2025-01-25 21:58:15,967 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:58:15,967 - root - ERROR - 
+
+2025-01-25 21:58:15,967 - root - ERROR - Begin to get {'signature': '2BQBoyL8McKEtcYen42Cyz89GHBtXxdgbSvQPYAS1HcjwZ8DgDkknbUKAmmH6SSDw5dU32Z7QSb3ut79AQXqBJze', 'mint': 'BuYYueqzZYUvcvCsMQBFDZ1skih3sCo7LtUGTuNPpump', 'traderPublicKey': 'Fn49BiGqd6kJnaoudu3G5FF6pJFvsM4sPFq2uf9To9Zp', 'txType': 'create', 'initialBuy': 34277831.558567, 'solAmount': 0.99, 'bondingCurveKey': 'H8WdV7ZetzqM3LPPvgxHw5PUkHY3hvnosoEciXG564X4', 'vTokensInBondingCurve': 1038722168.441433, 'vSolInBondingCurve': 30.98999999999999, 'marketCapSol': 29.834734389561962, 'name': 'Lumo Pub', 'symbol': 'LP ', 'uri': 'https://ipfs.io/ipfs/QmQY9LvhCwj49Xgs6KZdXpicLvuAnCd8WpaLLSRPPLeau5', 'pool': 'pump'}
+2025-01-25 21:58:15,967 - root - ERROR - Begin to extract_coin_detail_from_message BuYYueqzZYUvcvCsMQBFDZ1skih3sCo7LtUGTuNPpump
+2025-01-25 21:58:25,971 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/BuYYueqzZYUvcvCsMQBFDZ1skih3sCo7LtUGTuNPpump:
+2025-01-25 21:58:35,979 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmQY9LvhCwj49Xgs6KZdXpicLvuAnCd8WpaLLSRPPLeau5:
+2025-01-25 21:58:35,979 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:58:35,980 - root - ERROR - 
+
+2025-01-25 21:58:35,980 - root - ERROR - Begin to get {'signature': '4cVA4u1H7yQrgC1oMhW2jNXBv9zmCesmuxUSsT9otNfYpJuvQDGBySByetaq53GDxLpMAUUMvGSJQZbL2PrwgZLV', 'mint': 'Em4XuAEeK28agryzJe3fdpYkin4d45P2VKVtrFS9pump', 'traderPublicKey': 'AjSDCstEmz8bY5jo35hmxZz1cTtTKeBePWhj5K8BXMYt', 'txType': 'create', 'initialBuy': 19317512.274959, 'solAmount': 0.55, 'bondingCurveKey': 'GecgvrDs3D8r6u8Bgrf6pynctT1stbB8HzynH26X3z7q', 'vTokensInBondingCurve': 1053682487.725041, 'vSolInBondingCurve': 30.549999999999997, 'marketCapSol': 28.993553898726308, 'name': 'YOUTUBE', 'symbol': 'therealyt', 'uri': 'https://ipfs.io/ipfs/QmbSgN8Fm6xDfDaWwWcRjCzp91QxhgteXvKexk3xHYj6YG', 'pool': 'pump'}
+2025-01-25 21:58:35,980 - root - ERROR - Begin to extract_coin_detail_from_message Em4XuAEeK28agryzJe3fdpYkin4d45P2VKVtrFS9pump
+2025-01-25 21:58:46,969 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/Em4XuAEeK28agryzJe3fdpYkin4d45P2VKVtrFS9pump:
+2025-01-25 21:58:56,978 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmbSgN8Fm6xDfDaWwWcRjCzp91QxhgteXvKexk3xHYj6YG:
+2025-01-25 21:58:56,979 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:58:56,979 - root - ERROR - 
+
+2025-01-25 21:58:56,979 - root - ERROR - Begin to get {'signature': '5u8Fx2daZinqwFvpd3Rr8zUwrEV3ECzdsHFWZwQXQBSHNEMnw4bS1Uxji9KbhuEMDJACsQCVdcHwVJvkJfytVGFs', 'mint': '4tTFwRS1vYZWCvmECkWeLaWq2WwHyVyjz694dc6tpump', 'traderPublicKey': 'FrDVfYgkxpsvboY9mXPSobAhNSNp52j6dMnTHJRz2QVN', 'txType': 'create', 'initialBuy': 34612903.225806, 'solAmount': 1, 'bondingCurveKey': '5fQS1CxvDC92EbLjLnMFWJHCmx1PdqHRWKz4iLY5ohwg', 'vTokensInBondingCurve': 1038387096.774194, 'vSolInBondingCurve': 30.999999999999986, 'marketCapSol': 29.853991922957412, 'name': 'Unicorn Sex Machine', 'symbol': 'USM', 'uri': 'https://ipfs.io/ipfs/QmXLaAYNYH9HPbCvqGeSEikSGTr4WhwkwWE2EGccGNU7UN', 'pool': 'pump'}
+2025-01-25 21:58:56,979 - root - ERROR - Begin to extract_coin_detail_from_message 4tTFwRS1vYZWCvmECkWeLaWq2WwHyVyjz694dc6tpump
+2025-01-25 21:59:07,979 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/4tTFwRS1vYZWCvmECkWeLaWq2WwHyVyjz694dc6tpump:
+2025-01-25 21:59:18,967 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmXLaAYNYH9HPbCvqGeSEikSGTr4WhwkwWE2EGccGNU7UN:
+2025-01-25 21:59:18,968 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:59:18,968 - root - ERROR - 
+
+2025-01-25 21:59:18,968 - root - ERROR - Begin to get {'signature': '4iLMKiMChaip2u1PGMdTGbsCBzdZnxiT9ukG1y12Mi9dS3upEi5LDnjsBohVGqiPASj8LSBZbygkzNcVWW3L2kRo', 'mint': '8cmZRuHmUhWDLudWNfAWm3MH4kawcAuQvbYWioLypump', 'traderPublicKey': 'D2Zv7gJtXbj8scdRCt6o8VEo83KcF5btgJFiVrBAhzCf', 'txType': 'create', 'initialBuy': 34612903.225806, 'solAmount': 1, 'bondingCurveKey': '4TuRPBvpunzz7hvKXj7wgD3CGF1FBs4HH7ewziGZePxg', 'vTokensInBondingCurve': 1038387096.774194, 'vSolInBondingCurve': 30.999999999999986, 'marketCapSol': 29.853991922957412, 'name': 'fart acceleration', 'symbol': 'fart/acc', 'uri': 'https://ipfs.io/ipfs/QmW1cJ13Nm5XWptKnDoCD6BGKgSNCW7FG21xhMn4CVHAsB', 'pool': 'pump'}
+2025-01-25 21:59:18,968 - root - ERROR - Begin to extract_coin_detail_from_message 8cmZRuHmUhWDLudWNfAWm3MH4kawcAuQvbYWioLypump
+2025-01-25 21:59:28,967 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/8cmZRuHmUhWDLudWNfAWm3MH4kawcAuQvbYWioLypump:
+2025-01-25 21:59:38,978 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmW1cJ13Nm5XWptKnDoCD6BGKgSNCW7FG21xhMn4CVHAsB:
+2025-01-25 21:59:38,978 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:59:38,978 - root - ERROR - 
+
+2025-01-25 21:59:38,979 - root - ERROR - Begin to get {'signature': '2xJfYjEL52ovDM4QAfW2FdSHfhcdHgvN7Q5LEYsn5x11qRaGvLRWT37JYPZjRfKJrhf1nqS4W2pGJiR6pe4kpiey', 'mint': 'FHves7HgqRpf41q9r4tfjWRcQkVmYAPNZNeew8uypump', 'traderPublicKey': 'AEdFEFTvzs2NQsUHqxXiiM7w63eTKjchDznsVD78pVZd', 'txType': 'create', 'initialBuy': 17590163.934426, 'solAmount': 0.5, 'bondingCurveKey': 'FdiB2sQCVTEQDEFHjdTcTPUYQvi3z9MRzMv8uzWaor63', 'vTokensInBondingCurve': 1055409836.065574, 'vSolInBondingCurve': 30.499999999999993, 'marketCapSol': 28.8987263125194, 'name': 'UP THE RA', 'symbol': '0.5', 'uri': 'https://ipfs.io/ipfs/QmSzd3wxJJr6ovUmcikCwQmrpALV7N7PJW2XPcXrLPPpGx', 'pool': 'pump'}
+2025-01-25 21:59:38,979 - root - ERROR - Begin to extract_coin_detail_from_message FHves7HgqRpf41q9r4tfjWRcQkVmYAPNZNeew8uypump
+2025-01-25 21:59:49,961 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/FHves7HgqRpf41q9r4tfjWRcQkVmYAPNZNeew8uypump:
+2025-01-25 21:59:59,978 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmSzd3wxJJr6ovUmcikCwQmrpALV7N7PJW2XPcXrLPPpGx:
+2025-01-25 21:59:59,978 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 21:59:59,978 - root - ERROR - 
+
+2025-01-25 21:59:59,978 - root - ERROR - Begin to get {'signature': '52HBbHDyMZ8LLtJiMyhRphamiW871RirZo27Jvo7CdQG9MGcGfRto21v27HvSWRY3KcL91fj3s7mPJKheANrcWGj', 'mint': 'J6xVRvhf6yKc8gsUs4Yp8PteBMZLuP1b4BUDfbki2iH7', 'traderPublicKey': '5PCus9W1TFpGZBsnwetUTD7ktJbwPnQ87qKadqJ7o1ky', 'txType': 'create', 'initialBuy': 82538461.538461, 'solAmount': 2.5, 'bondingCurveKey': '7xnLSh4Zu6L6aC7ShFqtZno39U6E6ngvpcohr3yzCG1k', 'vTokensInBondingCurve': 990461538.461539, 'vSolInBondingCurve': 32.49999999999998, 'marketCapSol': 32.81298539919226, 'name': 'market’s slow, send this hoe', 'symbol': 'HOE', 'uri': 'https://ipfs.io/ipfs/QmXuv2CRcBfk52b59zmtPf7QWVH5Gs7vHh7HPZiSy9AFum', 'pool': 'pump'}
+2025-01-25 21:59:59,978 - root - ERROR - Begin to extract_coin_detail_from_message J6xVRvhf6yKc8gsUs4Yp8PteBMZLuP1b4BUDfbki2iH7
+2025-01-25 22:00:10,973 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/J6xVRvhf6yKc8gsUs4Yp8PteBMZLuP1b4BUDfbki2iH7:
+2025-01-25 22:00:20,974 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmXuv2CRcBfk52b59zmtPf7QWVH5Gs7vHh7HPZiSy9AFum:
+2025-01-25 22:00:20,974 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 22:00:20,975 - root - ERROR - 
+
+2025-01-25 22:00:20,975 - root - ERROR - Begin to get {'signature': '45kEzKjAw2ysMx2uiNXsAFFqbyusQLJsYMeLmmkSfuXYcbHm6kMFFtUchRQx3u673T211txcekNPRkGXuQsnk41K', 'mint': 'B3c8jqYgvaEuMuHpqBH4aDcvtwAwG5sNohfdLrrXoDRt', 'traderPublicKey': '8Uw2Yjugvf1KpHesdgrL7GMS6m4gLXobc1jqTyMbgCXW', 'txType': 'create', 'initialBuy': 34612903.225806, 'solAmount': 1, 'bondingCurveKey': '9UerNGmLkhmzPJxSSw1saCYV3483C9WggQSFZeQGSaY4', 'vTokensInBondingCurve': 1038387096.774194, 'vSolInBondingCurve': 30.999999999999986, 'marketCapSol': 29.853991922957412, 'name': 'HUBCAP', 'symbol': 'HUBCAP', 'uri': 'https://ipfs.io/ipfs/QmdN8eLY1sHVThNyAAhKnJxB1njJYZACqJ2bmiqAqfzf8n', 'pool': 'pump'}
+2025-01-25 22:00:20,975 - root - ERROR - Begin to extract_coin_detail_from_message B3c8jqYgvaEuMuHpqBH4aDcvtwAwG5sNohfdLrrXoDRt
+2025-01-25 22:00:31,986 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/B3c8jqYgvaEuMuHpqBH4aDcvtwAwG5sNohfdLrrXoDRt:
+2025-01-25 22:00:42,982 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmdN8eLY1sHVThNyAAhKnJxB1njJYZACqJ2bmiqAqfzf8n:
+2025-01-25 22:00:42,983 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 22:00:42,983 - root - ERROR - 
+
+2025-01-25 22:00:42,983 - root - ERROR - Begin to get {'signature': '65i6iRRGUAdiXQB22XMpVjBn77pcd48sAkMB3nJo81WG5faNfJTLAedrqPVpZn1knFPyAjSYgCyJkRmkDpXTk6oD', 'mint': '8WRvcRJaajSs4JzMuftZirzLiYQzUvtoiFPsUu8Tpump', 'traderPublicKey': 'DdHzmBTXDY9Rw6P8gLPUabxm4ShbGxYe7144PX3vmTMX', 'txType': 'create', 'initialBuy': 88421695.591266, 'solAmount': 2.6942, 'bondingCurveKey': 'EfXp4EuuBYBYUdKK1ZuyoBn9nG4xSuMEYo6Wmj46rkc', 'vTokensInBondingCurve': 984578304.408734, 'vSolInBondingCurve': 32.69419999999997, 'marketCapSol': 33.206297410375825, 'name': 'X', 'symbol': 'X', 'uri': 'https://ipfs.io/ipfs/QmSUjopMYKT12dix8sGiKgvgsTPXze3BwmRGd6BLL9y8iV', 'pool': 'pump'}
+2025-01-25 22:00:42,983 - root - ERROR - Begin to extract_coin_detail_from_message 8WRvcRJaajSs4JzMuftZirzLiYQzUvtoiFPsUu8Tpump
+2025-01-25 22:00:53,974 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/8WRvcRJaajSs4JzMuftZirzLiYQzUvtoiFPsUu8Tpump:
+2025-01-25 22:01:04,972 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmSUjopMYKT12dix8sGiKgvgsTPXze3BwmRGd6BLL9y8iV:
+2025-01-25 22:01:04,973 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 22:01:04,973 - root - ERROR - 
+
+2025-01-25 22:01:04,973 - root - ERROR - Begin to get {'signature': '5A2BUfRRXBiATzPsith3Z3uzCL4kxnv1juQHi7dyjtDxXQ2wDvY6CXMLoCDqYb5uZCUv4P4tozZGVrErxctPaH1V', 'mint': 'Ggoos8cZmrFrZk7p8t2Xh4XLKeGUQajYY16tQXJepump', 'traderPublicKey': 'E4vPqs7WRV4kbZrqE3nNZKXPv1TwhNfpBS6GNfd2Xsmj', 'txType': 'create', 'initialBuy': 97545454.545454, 'solAmount': 3, 'bondingCurveKey': 'BsbpDrrSxmYi6ekEB1YMKTRy82G6mc7LUQn6uMwqK4sB', 'vTokensInBondingCurve': 975454545.454546, 'vSolInBondingCurve': 32.999999999999986, 'marketCapSol': 33.830382106244144, 'name': 'EVIL MELANIA', 'symbol': 'EVILMEL', 'uri': 'https://ipfs.io/ipfs/QmetwmNJjkJMxPs2VFM9ZRvkVNhz6pBGt5ezDVvF7LvArw', 'pool': 'pump'}
+2025-01-25 22:01:04,973 - root - ERROR - Begin to extract_coin_detail_from_message Ggoos8cZmrFrZk7p8t2Xh4XLKeGUQajYY16tQXJepump
+2025-01-25 22:01:14,985 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/Ggoos8cZmrFrZk7p8t2Xh4XLKeGUQajYY16tQXJepump:
+2025-01-25 22:01:25,972 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmetwmNJjkJMxPs2VFM9ZRvkVNhz6pBGt5ezDVvF7LvArw:
+2025-01-25 22:01:25,972 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 22:01:25,973 - root - ERROR - 
+
+2025-01-25 22:01:25,973 - root - ERROR - Begin to get {'signature': '3m9Z6MHicuT4a2ccaJS1huA5KFxSyXVDrZZJb8UxkCEXTt8MPmjcTxXPPEFxYhaZug5Qi7HXJLbmHieERBbcKmEg', 'mint': 'FFEB4aKgGPiaCEWaExzkpKfm6RkebyJSerDDWQrc3FRN', 'traderPublicKey': '5mekyoDPGaFLoCtNRJaEVB422SKbRv8bXeNQ4bgdZxQb', 'txType': 'create', 'initialBuy': 97545454.545454, 'solAmount': 3, 'bondingCurveKey': 'ZMZATKHujnySnuQypz783yyBHdrqSTjvu4fUfBxbUWz', 'vTokensInBondingCurve': 975454545.454546, 'vSolInBondingCurve': 32.999999999999986, 'marketCapSol': 33.830382106244144, 'name': 'Maw', 'symbol': 'Maw', 'uri': 'https://ipfs.io/ipfs/QmPbMhdhxXNyV8aarrV8C5SFqjENt9QZ6wn58bMWKdKwci', 'pool': 'pump'}
+2025-01-25 22:01:25,973 - root - ERROR - Begin to extract_coin_detail_from_message FFEB4aKgGPiaCEWaExzkpKfm6RkebyJSerDDWQrc3FRN
+2025-01-25 22:01:35,975 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/FFEB4aKgGPiaCEWaExzkpKfm6RkebyJSerDDWQrc3FRN:
+2025-01-25 22:01:46,979 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmPbMhdhxXNyV8aarrV8C5SFqjENt9QZ6wn58bMWKdKwci:
+2025-01-25 22:01:46,979 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 22:01:46,979 - root - ERROR - 
+
+2025-01-25 22:01:46,979 - root - ERROR - Begin to get {'signature': '5B22Aex9jUF8TdBPzWNCAytAYs8EHES2etbMgbQoxtzK6zGAkQDPBxUSb1vj6xYh24nttuPF3QwMF8KmNrvuLtWp', 'mint': 'EPaz7bQxiHbe4ERWidsQL4dsdWqTMY5M3e5M1kJ1pump', 'traderPublicKey': '9EkMria5k2SfYFWS5tbPmwyvGKEFrQwLFrQ3abtgFeVY', 'txType': 'create', 'initialBuy': 24465798.045602, 'solAmount': 0.7, 'bondingCurveKey': 'CeATvcRz4fuyj33vkBwt8GJqvHUS6vSDjoH3Xy4HJcXe', 'vTokensInBondingCurve': 1048534201.954398, 'vSolInBondingCurve': 30.69999999999998, 'marketCapSol': 29.278968623796175, 'name': 'First Fart Tattoo in Face', 'symbol': 'TFART', 'uri': 'https://ipfs.io/ipfs/QmUfqRzvWC4ec6Zuo61Yc7RE1ZGH6Kn5J7GLg4DU6YiR3Z', 'pool': 'pump'}
+2025-01-25 22:01:46,979 - root - ERROR - Begin to extract_coin_detail_from_message EPaz7bQxiHbe4ERWidsQL4dsdWqTMY5M3e5M1kJ1pump
+2025-01-25 22:01:57,991 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/EPaz7bQxiHbe4ERWidsQL4dsdWqTMY5M3e5M1kJ1pump:
+2025-01-25 22:02:08,978 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmUfqRzvWC4ec6Zuo61Yc7RE1ZGH6Kn5J7GLg4DU6YiR3Z:
+2025-01-25 22:02:08,979 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 22:02:08,979 - root - ERROR - 
+
+2025-01-25 22:02:08,979 - root - ERROR - Begin to get {'signature': 'F2epobcEHXGpXayzVpfHCnUDL4KW2iwvQUqLkVjPaziLy6pV2fLXqwpYrCye984syBzKdDsw4WCugNkk6TGvw6R', 'mint': 'G6rRLLYb84a35UWyNCqkFn2iZPEYSTnAEJEpGgsHpump', 'traderPublicKey': '9dtRgJD7P1AeS53JNoayVKPeMRTMKkyGemBH9DebFTiT', 'txType': 'create', 'initialBuy': 10623762.376237, 'solAmount': 0.3, 'bondingCurveKey': 'EpW5vJXmQp3jbN8MhaFygov1wyp2fsFeewFwAe81ZJzz', 'vTokensInBondingCurve': 1062376237.623763, 'vSolInBondingCurve': 30.299999999999983, 'marketCapSol': 28.520969245107143, 'name': 'Elon’s Car In Orbit', 'symbol': 'ECIO', 'uri': 'https://ipfs.io/ipfs/QmeyhgGrDkaYM9tqnYi2z2tyQr6zULTgfoK7USZB6N58cT', 'pool': 'pump'}
+2025-01-25 22:02:08,980 - root - ERROR - Begin to extract_coin_detail_from_message G6rRLLYb84a35UWyNCqkFn2iZPEYSTnAEJEpGgsHpump
+2025-01-25 22:02:19,977 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/G6rRLLYb84a35UWyNCqkFn2iZPEYSTnAEJEpGgsHpump:
+2025-01-25 22:02:30,965 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmeyhgGrDkaYM9tqnYi2z2tyQr6zULTgfoK7USZB6N58cT:
+2025-01-25 22:02:30,966 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 22:02:30,966 - root - ERROR - 
+
+2025-01-25 22:02:30,968 - root - ERROR - 'NoneType' object has no attribute 'resume_reading'
+Traceback (most recent call last):
+  File "D:\www\pcoin\get_new_coins.py", line 132, in <module>
+    asyncio.get_event_loop().run_until_complete(subscribe())  # 尝试运行函数
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\asyncio\base_events.py", line 649, in run_until_complete
+    return future.result()
+  File "D:\www\pcoin\get_new_coins.py", line 29, in subscribe
+    async for message in websocket:
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\connection.py", line 242, in __aiter__
+    yield await self.recv()
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\connection.py", line 294, in recv
+    return await self.recv_messages.get(decode)
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\messages.py", line 151, in get
+    self.maybe_resume()
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\site-packages\websockets\asyncio\messages.py", line 280, in maybe_resume
+    self.resume()
+  File "C:\Users\Administrator\miniconda3\envs\pcoin\lib\asyncio\sslproto.py", line 343, in resume_reading
+    self._ssl_protocol._transport.resume_reading()
+AttributeError: 'NoneType' object has no attribute 'resume_reading'
+2025-01-25 22:02:42,442 - root - ERROR - Begin to get {'message': 'Successfully subscribed to token creation events.'}
+2025-01-25 22:02:42,442 - root - ERROR - 
+
+2025-01-25 22:02:43,017 - root - ERROR - Begin to get {'signature': '3AEhsrWS9pg7xbrQpp7d12x9FQK79x4RRYdWARhKvzzXgAnoNsrdMopGjKyFNXmvzfymiwdsDj6xBho8Hryr6FTD', 'mint': 'Fzvx4EVZB8683mj5JtzpMj4H6MpJWYJChWr31De9pump', 'traderPublicKey': 'ByHqgnU8mUpog8hp9rojrwZ63hvXDHyMMpmrPJB9vXUm', 'txType': 'create', 'initialBuy': 5338308.457711, 'solAmount': 0.15, 'bondingCurveKey': '5JEeVDMpAMREQGpdUPqVkL5A4DEvjGVWtR2bFAVuqPQR', 'vTokensInBondingCurve': 1067661691.542289, 'vSolInBondingCurve': 30.149999999999988, 'marketCapSol': 28.239282385834084, 'name': 'Herpecoin', 'symbol': 'SPH', 'uri': 'https://ipfs.io/ipfs/QmPskTu7ty6ypFXr9vQYdXdauKnsvYRq2HzEkbPgyPKXWY', 'pool': 'pump'}
+2025-01-25 22:02:43,017 - root - ERROR - Begin to extract_coin_detail_from_message Fzvx4EVZB8683mj5JtzpMj4H6MpJWYJChWr31De9pump
+2025-01-25 22:02:53,978 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/Fzvx4EVZB8683mj5JtzpMj4H6MpJWYJChWr31De9pump:
+2025-01-25 22:03:04,979 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmPskTu7ty6ypFXr9vQYdXdauKnsvYRq2HzEkbPgyPKXWY:
+2025-01-25 22:03:04,979 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 22:03:04,979 - root - ERROR - 
+
+2025-01-25 22:03:04,979 - root - ERROR - Begin to get {'signature': '5HbpLrEuq96WHpsxQFPtXXpNacVRbArXhkJfDWQHpgF94xq1HPmchBktrg2asMiUFECcNnRdVJwNQN9khkjLUBw4', 'mint': '4JqPRLu4r5c1ZNCA4Qs9s6h1uEDeE9m196Qd144DJ7ZH', 'traderPublicKey': 'B3bFoFsSeezro2uEFB9Z6SW5D4FoiAVCdnoJKjnc3Wm1', 'txType': 'create', 'initialBuy': 34612903.225806, 'solAmount': 1, 'bondingCurveKey': 'KPzb7A78VSkCWEaUnbn3LpAHeQzc3HR7QvA2KaHD4G8', 'vTokensInBondingCurve': 1038387096.774194, 'vSolInBondingCurve': 30.999999999999986, 'marketCapSol': 29.853991922957412, 'name': 'Four Tet', 'symbol': 'FOURTET', 'uri': 'https://ipfs.io/ipfs/QmbYQCYpB2eEYhtVf3VVuiEmFUQY6gtEaxftywTLLNGm4e', 'pool': 'pump'}
+2025-01-25 22:03:04,979 - root - ERROR - Begin to extract_coin_detail_from_message 4JqPRLu4r5c1ZNCA4Qs9s6h1uEDeE9m196Qd144DJ7ZH
+2025-01-25 22:03:15,972 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/4JqPRLu4r5c1ZNCA4Qs9s6h1uEDeE9m196Qd144DJ7ZH:
+2025-01-25 22:03:25,978 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmbYQCYpB2eEYhtVf3VVuiEmFUQY6gtEaxftywTLLNGm4e:
+2025-01-25 22:03:25,979 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 22:03:25,979 - root - ERROR - 
+
+2025-01-25 22:03:25,979 - root - ERROR - Begin to get {'signature': '3pNb77dyYRdEUh34KwipK4kmUwx8pBKL3t1pcCCm3bE5nEA35YH92QVueybdXrRhqqGTacUko56q8cfPz96dctsk', 'mint': 'FyZvH6XsDyQ1MVz3ExUYYdffybitk3FkSSKXawSrpump', 'traderPublicKey': '54UQod3qLhy89DwUt9YA28xvXdAqSti9CH6dRUEYNGRA', 'txType': 'create', 'initialBuy': 34612903.225806, 'solAmount': 1, 'bondingCurveKey': 'G9bDdxDCDf2caiDYKj69X4zTB6gLTc3Pg5XM9EaYgBTa', 'vTokensInBondingCurve': 1038387096.774194, 'vSolInBondingCurve': 30.999999999999986, 'marketCapSol': 29.853991922957412, 'name': 'Carscoin', 'symbol': 'cars', 'uri': 'https://ipfs.io/ipfs/QmPBGFfXRt4AKkSYxeeP2YCEkYMtYMxru937CdsSGEZEen', 'pool': 'pump'}
+2025-01-25 22:03:25,979 - root - ERROR - Begin to extract_coin_detail_from_message FyZvH6XsDyQ1MVz3ExUYYdffybitk3FkSSKXawSrpump
+2025-01-25 22:03:36,985 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/FyZvH6XsDyQ1MVz3ExUYYdffybitk3FkSSKXawSrpump:
+2025-01-25 22:03:47,980 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmPBGFfXRt4AKkSYxeeP2YCEkYMtYMxru937CdsSGEZEen:
+2025-01-25 22:03:47,980 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 22:03:47,981 - root - ERROR - 
+
+2025-01-25 22:03:47,981 - root - ERROR - Begin to get {'signature': '47aD58vmpeH2MPicQDtfSra9frHrQ87ZJouhcXoSdp5TBjcnvYAFRF2FS9ZwQHFGCMPTAH8wAkcBDYenyvv7wQxg', 'mint': '13c6BneJXE5bpfkoEHmonqGuYn7DxbEgDZa6MeF1pump', 'traderPublicKey': 'BT9XJbd6fw98QzgDpzrWkxBMrCaSyycsyGKxT6ey13He', 'txType': 'create', 'initialBuy': 37951768.488745, 'solAmount': 1.1, 'bondingCurveKey': 'HKJ8VrqtMrx93fKqqtjzRyxoBEvVvB5GQ9mbQPFxiERe', 'vTokensInBondingCurve': 1035048231.511255, 'vSolInBondingCurve': 31.09999999999997, 'marketCapSol': 30.0469089779434, 'name': 'Lovely', 'symbol': 'Lovely', 'uri': 'https://ipfs.io/ipfs/QmVUCKZsPBRorSsVu6iXrZDDVhMGiZhBgKY4UWENBrk1nH', 'pool': 'pump'}
+2025-01-25 22:03:47,981 - root - ERROR - Begin to extract_coin_detail_from_message 13c6BneJXE5bpfkoEHmonqGuYn7DxbEgDZa6MeF1pump
+2025-01-25 22:03:58,971 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/13c6BneJXE5bpfkoEHmonqGuYn7DxbEgDZa6MeF1pump:
+2025-01-25 22:04:08,973 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmVUCKZsPBRorSsVu6iXrZDDVhMGiZhBgKY4UWENBrk1nH:
+2025-01-25 22:04:08,974 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 22:04:08,974 - root - ERROR - 
+
+2025-01-25 22:04:08,974 - root - ERROR - Begin to get {'signature': '3dBKjrnqjTAfHykTiYg659gdoc1wo5M6448JBS4nBQbBjr5pY3XqYAnj4tdFDs3JnQb4DZLNkZF4ggREMAawY8TN', 'mint': '4hXq79j6tA7nAMdEbK25tbCemMLg39NNsPENuXw3pump', 'traderPublicKey': '5s9dFagbUrdDvppVapf3EGJjVGQ9r1SwsVLjMSAZrZYZ', 'txType': 'create', 'initialBuy': 34612903.225806, 'solAmount': 1, 'bondingCurveKey': 'Gnx9B74gjg7Bux7wufWxk3KkPumxFkBk1ADq1mt6DgTE', 'vTokensInBondingCurve': 1038387096.774194, 'vSolInBondingCurve': 30.999999999999986, 'marketCapSol': 29.853991922957412, 'name': 'Just Fart It', 'symbol': 'FIKE', 'uri': 'https://ipfs.io/ipfs/QmXp81ifvy96iGRXReYeG8XvPxYu496HSgutGJZPedNXzR', 'pool': 'pump'}
+2025-01-25 22:04:08,974 - root - ERROR - Begin to extract_coin_detail_from_message 4hXq79j6tA7nAMdEbK25tbCemMLg39NNsPENuXw3pump
+2025-01-25 22:04:18,963 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/4hXq79j6tA7nAMdEbK25tbCemMLg39NNsPENuXw3pump:
+2025-01-25 22:04:28,988 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmXp81ifvy96iGRXReYeG8XvPxYu496HSgutGJZPedNXzR:
+2025-01-25 22:04:28,988 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-25 22:04:28,990 - root - ERROR - 
+
+2025-01-25 22:04:28,990 - root - ERROR - Begin to get {'signature': '4DeTcVgWSSbWFaL5K3q1VXyWV8U4sGrLjkNG3CNNyDCAnFXmLg93SiSkTfzhueSPi94nwjXBkjVzXmNSUVLUHenH', 'mint': '3AZ3JBdLQeQt9XfJT1qGwjZQbQpormQp7sk1Qnu3pump', 'traderPublicKey': '6g88upYpY3km8qw935haAdUfqaq6o1MiyonVT2tu8Yxa', 'txType': 'create', 'initialBuy': 97545454.545454, 'solAmount': 3, 'bondingCurveKey': 'GWH6qSJiQV3PJqagaRAAcGRXhzHMuyhcoo777sAsrbU2', 'vTokensInBondingCurve': 975454545.454546, 'vSolInBondingCurve': 32.999999999999986, 'marketCapSol': 33.830382106244144, 'name': 'Safecoin', 'symbol': 'Safecoin', 'uri': 'https://ipfs.io/ipfs/Qmf4y8KJhuBNtbfJJGU2QKAkBUbSoXejKDWafTc5tudRH2', 'pool': 'pump'}
+2025-01-25 22:04:28,990 - root - ERROR - Begin to extract_coin_detail_from_message 3AZ3JBdLQeQt9XfJT1qGwjZQbQpormQp7sk1Qnu3pump
+2025-01-25 22:04:39,979 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/3AZ3JBdLQeQt9XfJT1qGwjZQbQpormQp7sk1Qnu3pump:
+2025-01-26 15:44:08,450 - root - ERROR - Begin to get {'message': 'Successfully subscribed to token creation events.'}
+2025-01-26 15:44:08,452 - root - ERROR - 
+
+2025-01-26 15:44:08,761 - root - ERROR - Begin to get {'signature': '4LGKpxZZmAg3BBmkgWNonTbGvMhXRksECE9K4ugUjDVz2o87PsHgbNDkvJxkWJAk75CddcFmGjffT85QQjgAWuKi', 'mint': 'AijACg1jU7oxNUUsPsihdFuzGVhLCUiVeowUa6m8pump', 'traderPublicKey': 'J4aRMks2V2em7RLmkqKBjhrx1e5FVs2reXjJa7wVbcB3', 'txType': 'create', 'initialBuy': 893422.148209, 'solAmount': 0.025, 'bondingCurveKey': '5YgamTmtmy8NzYqn7k1evLnQhsKFh9HEsbbzw1MzbhtV', 'vTokensInBondingCurve': 1072106577.851791, 'vSolInBondingCurve': 30.024999999999977, 'marketCapSol': 28.005611214662895, 'name': 'DarthPutin', 'symbol': 'KGB', 'uri': 'https://ipfs.io/ipfs/QmZKZducLNs1qF5HWY85QnWfBHky2Dx2CYHA7zzeWiiXUP', 'pool': 'pump'}
+2025-01-26 15:44:08,761 - root - ERROR - Begin to extract_coin_detail_from_message AijACg1jU7oxNUUsPsihdFuzGVhLCUiVeowUa6m8pump
+2025-01-26 15:44:18,973 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/AijACg1jU7oxNUUsPsihdFuzGVhLCUiVeowUa6m8pump:
+2025-01-26 15:44:28,986 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmZKZducLNs1qF5HWY85QnWfBHky2Dx2CYHA7zzeWiiXUP:
+2025-01-26 15:44:28,986 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-26 15:44:28,986 - root - ERROR - 
+
+2025-01-26 15:44:28,986 - root - ERROR - Begin to get {'signature': '2fL46iBte7dfsZSxUbDjer5vDkY69fgGGiCxuJrBJBxw811Sf86TLmNMfgCyAVBT52Y3y5hBcLHJ6T5oWBqH9ThC', 'mint': '29M1UJgwhJu6kEdmGdkaRkWyhjS334YtQbZny8dzpump', 'traderPublicKey': 'CtAUi9xbhXgrk8X4Q9pUL2EhfBGZspBFGsuxbpMc4fHe', 'txType': 'create', 'initialBuy': 0, 'solAmount': 0, 'bondingCurveKey': '6CQF92qiLgxWgMqED8GKfWCMaewPQBGPSWFwgrzfjvnD', 'vTokensInBondingCurve': 1073000000, 'vSolInBondingCurve': 30, 'marketCapSol': 27.958993476234856, 'name': 'Phaerix', 'symbol': 'PHX', 'uri': 'https://ipfs.io/ipfs/QmNbEemJRBqGVbqnE4KHFAdqFboR76Da69Uwb3mzKFGA2t', 'pool': 'pump'}
+2025-01-26 15:44:28,987 - root - ERROR - Begin to extract_coin_detail_from_message 29M1UJgwhJu6kEdmGdkaRkWyhjS334YtQbZny8dzpump
+2025-01-26 15:44:39,978 - root - ERROR - Error fetching https://frontend-api-v2.pump.fun/coins/29M1UJgwhJu6kEdmGdkaRkWyhjS334YtQbZny8dzpump:
+2025-01-26 15:44:50,979 - root - ERROR - Error fetching https://ipfs.io/ipfs/QmNbEemJRBqGVbqnE4KHFAdqFboR76Da69Uwb3mzKFGA2t:
+2025-01-26 15:44:50,979 - root - ERROR - Both pump/ifps api call fail,ignore current coin
+2025-01-26 15:44:50,979 - root - ERROR - 
+
+2025-01-26 15:44:50,980 - root - ERROR - Begin to get {'signature': '1W9TcYqMKpKSNtokvoPe2Lp9GgRPFdfCE6GU2xm1tmqKbvmgtdomzDCHV7bg1iVySPC99XLQWEvuBXGbsvKPE18', 'mint': 'Gcd7zcjJq9T7dTufG8P9CKygiB38UjtKYtrbDWiDpump', 'traderPublicKey': '9WRE7dMqKSHjULtu2yyzYZQcphHLE59ThmeWJWHLqErN', 'txType': 'create', 'initialBuy': 97545454.545454, 'solAmount': 3, 'bondingCurveKey': 'BzhNKBfJj8jJ1VJpiGnnpdzD8hLnvyiiYz47cxPpaAgD', 'vTokensInBondingCurve': 975454545.454546, 'vSolInBondingCurve': 32.999999999999986, 'marketCapSol': 33.830382106244144, 'name': 'darkaura.exe', 'symbol': 'aura', 'uri': 'https://ipfs.io/ipfs/QmdzvZ6RcGCnWJnxbo7WwJep86F9JnyCHVtE1ENssLiGBd', 'pool': 'pump'}
+2025-01-26 15:44:50,980 - root - ERROR - Begin to extract_coin_detail_from_message Gcd7zcjJq9T7dTufG8P9CKygiB38UjtKYtrbDWiDpump

@@ -1,0 +1,4 @@
+aiohttp~=3.11.11
+websockets~=14.2
+aiosqlite~=0.20.0
+requests~=2.32.3
