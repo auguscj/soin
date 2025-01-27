@@ -9,13 +9,14 @@ import sqlite3
 from datetime import datetime
 import aiosqlite
 # from getprice import get_price
-from filter import base_filter
+from filter import base_filter,find_duplicate_domain
 
 conn = sqlite3.connect('coins.db')
 c = conn.cursor()
 c.execute('''CREATE TABLE IF NOT EXISTS coins
              (coin_name text, mint text, found_time text,init_cap real, five_min_cap real, ten_min_cap real,creator text,website text,telegram text,twitter text,if_done text)''')
 
+duplicate_domains = find_duplicate_domain()
 
 async def subscribe():
     async with aiosqlite.connect("coins.db") as db:
@@ -35,7 +36,7 @@ async def fetch_json(session,url,url_type="pump"):
     try:
         async with session.get(url) as response:
             if url_type=="pump":
-                if response.statusCode==200:
+                if response:
                     return await response.json()
                 else:
                     logging.error(f"Fail to fetch {url},status:{response}")
@@ -108,7 +109,7 @@ async def extract_coin_detail_from_message(pump_message,session,db):
         now = datetime.now()
         current_time = now.strftime('%Y-%m-%d %H:%M')
 
-        filter_result = base_filter(twitter,website)
+        filter_result = base_filter(twitter,website,duplicate_domains)
         if filter_result:
             sql = f"INSERT INTO coins VALUES ('{coin_name}', '{mint}', '{current_time}', '{current_price}', 0.0,0.0,'{creator}','{website}','{telegram}','{twitter}','no')"
             logging.error(sql)
