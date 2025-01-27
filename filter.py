@@ -1,5 +1,5 @@
 import requests
-from config import coin_detail_url,coin_creator,logging,bad_website_suffix,bad_domains
+from config import coin_detail_url,coin_creator,logging,bad_website_suffix,bad_domains,duplicate_domains
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 from collections import deque
@@ -14,7 +14,7 @@ def website_format(website):
     return clean_domain
 
 
-def base_filter(twitter,website,duplicate_domains):
+def base_filter(twitter,website):
     #过滤双空网站
     if twitter=="None" and website=="None":
         return False
@@ -39,16 +39,15 @@ def base_filter(twitter,website,duplicate_domains):
 
     return True
 
-# conn = sqlite3.connect('coins_duplicate.db')
-# cursor = conn.cursor()
-# sql = "SELECT twitter,website FROM coins WHERE (twitter, website) IN (SELECT twitter, website FROM coins GROUP BY twitter, website HAVING COUNT(*) = 1);"
-# cursor.execute(sql)
-# result = cursor.fetchall()
-# for i in result:
-#     print(i)
+conn = sqlite3.connect('coins.db')
+cursor = conn.cursor()
+sql = "SELECT twitter,website FROM coins WHERE (twitter, website) IN (SELECT twitter, website FROM coins GROUP BY twitter, website HAVING COUNT(*) = 1);"
+cursor.execute(sql)
+result = cursor.fetchall()
+
 
 def find_duplicate_domain():
-    conn = sqlite3.connect('coins_duplicate.db')
+    conn = sqlite3.connect('coins.db')
     cursor = conn.cursor()
     cursor.execute('SELECT website FROM coins')
     websites = cursor.fetchall()
@@ -60,20 +59,20 @@ def find_duplicate_domain():
     duplicate_domains = {domain for domain, count in domain_counts.items() if count > 1}
     return duplicate_domains
 
-# duplicate_domains = find_duplicate_domain()
-# final_resul = []
-# for i in result:
-#     twitter = i[0]
-#     website = i[1]
-#     if base_filter(twitter,website):
-#         website = website_format(website)
-#         if website not in duplicate_domains:
-#             final_resul.append(website)
-#
-# print(len(final_resul))
+duplicate_domains = find_duplicate_domain()
+final_resul = []
+for i in result:
+    twitter = i[0]
+    website = i[1]
+    if base_filter(twitter,website):
+        website = website_format(website)
+        if website not in duplicate_domains:
+            final_resul.append(website)
+
+print(len(final_resul))
 
 
-# print(final_resul)
+print(final_resul)
 
 
 
