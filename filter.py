@@ -19,6 +19,11 @@ def base_filter(twitter,website):
     if twitter=="None" and website=="None":
         return False
 
+    #如果twitter网站不标准
+    if twitter!="None" or twitter!="":
+        if "x.com" not in twitter:
+            return False
+
     #过滤一些后缀的网站
     website = website_format(website)
     if website in duplicate_domains:
@@ -39,11 +44,6 @@ def base_filter(twitter,website):
 
     return True
 
-conn = sqlite3.connect('coins.db')
-cursor = conn.cursor()
-sql = "SELECT twitter,website FROM coins WHERE (twitter, website) IN (SELECT twitter, website FROM coins GROUP BY twitter, website HAVING COUNT(*) = 1);"
-cursor.execute(sql)
-result = cursor.fetchall()
 
 
 def find_duplicate_domain():
@@ -59,20 +59,6 @@ def find_duplicate_domain():
     duplicate_domains = {domain for domain, count in domain_counts.items() if count > 1}
     return duplicate_domains
 
-duplicate_domains = find_duplicate_domain()
-final_resul = []
-for i in result:
-    twitter = i[0]
-    website = i[1]
-    if base_filter(twitter,website):
-        website = website_format(website)
-        if website not in duplicate_domains:
-            final_resul.append(website)
-
-print(len(final_resul))
-
-
-print(final_resul)
 
 
 
