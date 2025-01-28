@@ -9,13 +9,13 @@ import sqlite3
 from datetime import datetime
 import aiosqlite
 from filter import base_filter,filter_creator
-# from getprice import get_price
+
 
 
 conn = sqlite3.connect('coins.db')
 c = conn.cursor()
 c.execute('''CREATE TABLE IF NOT EXISTS coins
-             (coin_name text, mint text, found_time text,init_cap real, five_min_cap real, ten_min_cap real,creator text,website text,telegram text,twitter text,if_done text)''')
+             (coin_name text, mint text, found_time text,init_cap real, five_min_cap real, ten_min_cap real,creator text,website text,telegram text,twitter text,bonding_curveKey text,if_done text)''')
 
 
 
@@ -78,8 +78,8 @@ async def extract_coin_detail_from_message(pump_message,session,db):
         creator = pump_message['traderPublicKey']
         vSolInBondingCurve = pump_message['vSolInBondingCurve']
         vTokensInBondingCurve = pump_message['vTokensInBondingCurve']
-
-        current_price = f"{(vSolInBondingCurve / vTokensInBondingCurve):.10f}"
+        price_raw = vSolInBondingCurve / vTokensInBondingCurve
+        current_price = f"{price_raw:.10f}"
         pump_url = coin_detail_url.replace('mint', mint)
         coin_detail_json = await fetch_json(session,pump_url)
         website = None
@@ -104,7 +104,7 @@ async def extract_coin_detail_from_message(pump_message,session,db):
                 logging.error("Both pump/ifps api call fail,ignore current coin")
                 logging.error("\n")
                 return False
-        # bondingCurveKey = pump_message['bondingCurveKey']
+        bondingCurveKey = pump_message['bondingCurveKey']
         # price_dic = await get_price(mint,bondingCurveKey)
         # price = price_dic['price']
         now = datetime.now()
@@ -122,7 +122,7 @@ async def extract_coin_detail_from_message(pump_message,session,db):
             return False
 
 
-        sql = f"INSERT INTO coins VALUES ('{coin_name}', '{mint}', '{current_time}', '{current_price}', 0.0,0.0,'{creator}','{website}','{telegram}','{twitter}','no')"
+        sql = f"INSERT INTO coins VALUES ('{coin_name}', '{mint}', '{current_time}', '{current_price}', 0.0,0.0,'{creator}','{website}','{telegram}','{twitter}','{bondingCurveKey}','no')"
         logging.error(sql)
         await db.execute(sql)
         await  db.commit()
