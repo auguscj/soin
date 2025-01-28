@@ -8,7 +8,7 @@ import time
 import sqlite3
 from datetime import datetime
 import aiosqlite
-from filter import base_filter
+from filter import base_filter,filter_creator
 # from getprice import get_price
 
 
@@ -110,15 +110,24 @@ async def extract_coin_detail_from_message(pump_message,session,db):
         now = datetime.now()
         current_time = now.strftime('%Y-%m-%d %H:%M')
 
-        filter_result = base_filter(twitter,website)
-        if filter_result:
-            sql = f"INSERT INTO coins VALUES ('{coin_name}', '{mint}', '{current_time}', '{current_price}', 0.0,0.0,'{creator}','{website}','{telegram}','{twitter}','no')"
-            logging.error(sql)
-            await db.execute(sql)
-            await  db.commit()
-            logging.error(f" extract_coin_detail_from_message finish ")
-        else:
+
+        base_website_filter = base_filter(twitter,website)
+        if not base_website_filter:
             logging.error(f"{mint} {website} {twitter} didn't pass filter")
+            return False
+
+        creator_filter = filter_creator(creator)
+        if not creator_filter:
+            logging.error(f"creator: {creator}  didn't pass filter")
+            return False
+
+
+        sql = f"INSERT INTO coins VALUES ('{coin_name}', '{mint}', '{current_time}', '{current_price}', 0.0,0.0,'{creator}','{website}','{telegram}','{twitter}','no')"
+        logging.error(sql)
+        await db.execute(sql)
+        await  db.commit()
+        logging.error(f" extract_coin_detail_from_message finish ")
+
     except KeyError:
         pass
     except Exception as e:
