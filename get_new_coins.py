@@ -8,7 +8,7 @@ import time
 import sqlite3
 from datetime import datetime
 import aiosqlite
-from filter import base_filter,filter_creator
+from filter import base_filter,filter_creator,check_twitter
 
 
 
@@ -121,6 +121,10 @@ async def extract_coin_detail_from_message(pump_message,session,db):
             logging.error(f"creator: {creator}  didn't pass filter")
             return False
 
+        twitter_filter = check_twitter(twitter,mint)
+        if not twitter_filter:
+            logging.error(f"twitter: {twitter} found multiple token_address or no same mint address found")
+            return False
 
         sql = f"INSERT INTO coins VALUES ('{coin_name}', '{mint}', '{current_time}', '{current_price}', 0.0,0.0,'{creator}','{website}','{telegram}','{twitter}','{bondingCurveKey}','no')"
         logging.error(sql)
