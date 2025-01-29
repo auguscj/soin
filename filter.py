@@ -1,11 +1,12 @@
 import requests
-from config import coin_detail_url,coin_creator,logging,bad_website_suffix,bad_domains,duplicate_domains
+from config import coin_detail_url,coin_creator,logging,bad_website_suffix,bad_domains,duplicate_domains,twitter_check_url
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse
 from collections import deque
 import sqlite3
 from urllib.parse import urlparse
 from collections import Counter
+import json
 
 def website_format(website):
     website = website.replace("https://", "")
@@ -139,6 +140,25 @@ def is_valid_url(url):
     """Check if a URL is valid and belongs to the same domain."""
     parsed = urlparse(url)
     return parsed.scheme in {"http", "https"} and bool(parsed.netloc)
+
+def check_twitter(twitter,mint):
+    twitter_checker_url = twitter_check_url.replace("twitter",twitter)
+    response = requests.get(twitter_checker_url)
+    data = response.json()
+
+    # 初始化一个集合来存储已经出现过的token_address
+    seen_token_addresses = set()
+    seen_token_addresses.add(mint)
+
+    if data.get('data') is not None and data['data'].get('tweets') is not None:
+        for tweet in data['data']['tweets']:
+            token_address = tweet['token_address']
+            # 如果有一个mint地址跟mint地址不一样，说明有删推过
+            if token_address not in seen_token_addresses:
+                return False
+        return True
+    else:#说明twitter不存在币的mint地址
+        return False
 
 
 def crawl_website(start_url, max_depth=3):
