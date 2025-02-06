@@ -1,4 +1,6 @@
 aiohttp~=3.11.11
-websockets~=14.2
 aiosqlite~=0.20.0
 requests~=2.32.3
+solders~=0.21.0
+solana~=0.35.1
+beautifulsoup4~=4.12.3
